@@ -1,0 +1,1980 @@
+[
+ {
+  "id": "x-maths",
+  "cls": "X",
+  "name": "Mathematics",
+  "code": "041 / 241",
+  "pass": "33/100 incl. internal (aim 32/80)",
+  "lang": "en",
+  "title": "CBSE Class X Mathematics (Standard 041 / Basic 241): Pass Pack 2026-27",
+  "toc": [
+   {
+    "id": "1-exam-at-a-glance-2026-27",
+    "level": 2,
+    "text": "1. Exam at a glance (2026-27)"
+   },
+   {
+    "id": "2-unit-and-chapter-weightage-2026-27-theory-80",
+    "level": 2,
+    "text": "2. Unit and chapter weightage (2026-27, theory 80)"
+   },
+   {
+    "id": "3-the-33-mark-plan-target-32-80-in-theory",
+    "level": 2,
+    "text": "3. The 33-mark plan (target 32/80 in theory)"
+   },
+   {
+    "id": "3a-study-order-easiest-and-highest-return-first",
+    "level": 3,
+    "text": "3a. Study order (easiest and highest return first)"
+   },
+   {
+    "id": "3b-target-marks-table-theory",
+    "level": 3,
+    "text": "3b. Target-marks table (theory)"
+   },
+   {
+    "id": "3c-how-internal-assessment-helps",
+    "level": 3,
+    "text": "3c. How internal assessment helps"
+   },
+   {
+    "id": "4-pyq-trend-analysis-papers-actually-read",
+    "level": 2,
+    "text": "4. PYQ trend analysis (papers actually read)"
+   },
+   {
+    "id": "5-must-do-question-bank-80-questions",
+    "level": 2,
+    "text": "5. Must-do question bank (80 questions)"
+   },
+   {
+    "id": "chapter-1-real-numbers",
+    "level": 3,
+    "text": "Chapter 1: Real Numbers"
+   },
+   {
+    "id": "chapter-2-polynomials",
+    "level": 3,
+    "text": "Chapter 2: Polynomials"
+   },
+   {
+    "id": "chapter-3-pair-of-linear-equations-in-two-variables",
+    "level": 3,
+    "text": "Chapter 3: Pair of Linear Equations in Two Variables"
+   },
+   {
+    "id": "chapter-4-quadratic-equations",
+    "level": 3,
+    "text": "Chapter 4: Quadratic Equations"
+   },
+   {
+    "id": "chapter-5-arithmetic-progressions",
+    "level": 3,
+    "text": "Chapter 5: Arithmetic Progressions"
+   },
+   {
+    "id": "chapter-6-triangles",
+    "level": 3,
+    "text": "Chapter 6: Triangles"
+   },
+   {
+    "id": "chapter-7-coordinate-geometry",
+    "level": 3,
+    "text": "Chapter 7: Coordinate Geometry"
+   },
+   {
+    "id": "chapter-8-introduction-to-trigonometry",
+    "level": 3,
+    "text": "Chapter 8: Introduction to Trigonometry"
+   },
+   {
+    "id": "chapter-9-some-applications-of-trigonometry-heights-and-dist",
+    "level": 3,
+    "text": "Chapter 9: Some Applications of Trigonometry (Heights and Distances)"
+   },
+   {
+    "id": "chapter-10-circles",
+    "level": 3,
+    "text": "Chapter 10: Circles"
+   },
+   {
+    "id": "chapter-11-areas-related-to-circles",
+    "level": 3,
+    "text": "Chapter 11: Areas Related to Circles"
+   },
+   {
+    "id": "chapter-12-surface-areas-and-volumes",
+    "level": 3,
+    "text": "Chapter 12: Surface Areas and Volumes"
+   },
+   {
+    "id": "chapter-13-statistics",
+    "level": 3,
+    "text": "Chapter 13: Statistics"
+   },
+   {
+    "id": "chapter-14-probability",
+    "level": 3,
+    "text": "Chapter 14: Probability"
+   },
+   {
+    "id": "6-quick-revision-sheet",
+    "level": 2,
+    "text": "6. Quick revision sheet"
+   },
+   {
+    "id": "6a-formulas-learn-these-and-you-can-do-most-of-the-paper",
+    "level": 3,
+    "text": "6a. Formulas (learn these and you can do most of the paper)"
+   },
+   {
+    "id": "6b-trigonometry-table-write-it-on-the-first-page-of-your-rou",
+    "level": 3,
+    "text": "6b. Trigonometry table (write it on the first page of your rough work)"
+   },
+   {
+    "id": "6c-key-definitions-1-mark-favourites",
+    "level": 3,
+    "text": "6c. Key definitions (1-mark favourites)"
+   },
+   {
+    "id": "6d-two-dice-the-36-outcomes-draw-this-grid-in-every-dice-que",
+    "level": 3,
+    "text": "6d. Two dice: the 36 outcomes (draw this grid in every dice question)"
+   },
+   {
+    "id": "6e-diagrams-to-learn-draw-neatly-in-pencil-the-figure-itself",
+    "level": 3,
+    "text": "6e. Diagrams to learn (draw neatly in pencil; the figure itself earns marks)"
+   },
+   {
+    "id": "7-answer-writing-tips-to-collect-step-marks-and-a-30-day-tim",
+    "level": 2,
+    "text": "7. Answer-writing tips (to collect step marks) and a 30-day timetable"
+   },
+   {
+    "id": "7a-tips",
+    "level": 3,
+    "text": "7a. Tips"
+   },
+   {
+    "id": "7b-30-day-study-timetable-about-2-hours-a-day",
+    "level": 3,
+    "text": "7b. 30-day study timetable (about 2 hours a day)"
+   },
+   {
+    "id": "8-sources-urls-actually-opened",
+    "level": 2,
+    "text": "8. Sources (URLs actually opened)"
+   }
+  ],
+  "questions": 80,
+  "stars": 53,
+  "pdf": "X-041-241-maths.pdf"
+ },
+ {
+  "id": "x-science",
+  "cls": "X",
+  "name": "Science",
+  "code": "086",
+  "pass": "33/100 incl. internal (aim 32/80)",
+  "lang": "en",
+  "title": "CBSE Class X Science (086): Pass Pack 2026-27",
+  "toc": [
+   {
+    "id": "1-exam-at-a-glance-2026-27",
+    "level": 2,
+    "text": "1. Exam at a glance (2026-27)"
+   },
+   {
+    "id": "2-unit-weightage-table-2026-27-curriculum-theory-80",
+    "level": 2,
+    "text": "2. Unit weightage table (2026-27 curriculum, theory 80)"
+   },
+   {
+    "id": "3-the-33-mark-plan-target-32-out-of-80-in-theory",
+    "level": 2,
+    "text": "3. The 33-mark plan (target 32+ out of 80 in theory)"
+   },
+   {
+    "id": "3a-study-order-easiest-and-highest-return-first",
+    "level": 3,
+    "text": "3a. Study order (easiest and highest return first)"
+   },
+   {
+    "id": "3b-target-marks-table-theory",
+    "level": 3,
+    "text": "3b. Target-marks table (theory)"
+   },
+   {
+    "id": "3c-how-internal-assessment-saves-you",
+    "level": 3,
+    "text": "3c. How internal assessment saves you"
+   },
+   {
+    "id": "4-pyq-trend-analysis-papers-actually-read",
+    "level": 2,
+    "text": "4. PYQ trend analysis (papers actually read)"
+   },
+   {
+    "id": "5-must-do-question-bank-72-questions",
+    "level": 2,
+    "text": "5. Must-do question bank (72 questions)"
+   },
+   {
+    "id": "section-a-biology",
+    "level": 2,
+    "text": "SECTION A: BIOLOGY"
+   },
+   {
+    "id": "chapter-life-processes",
+    "level": 3,
+    "text": "Chapter: Life Processes"
+   },
+   {
+    "id": "chapter-control-and-coordination",
+    "level": 3,
+    "text": "Chapter: Control and Coordination"
+   },
+   {
+    "id": "chapter-how-do-organisms-reproduce",
+    "level": 3,
+    "text": "Chapter: How do Organisms Reproduce?"
+   },
+   {
+    "id": "chapter-heredity",
+    "level": 3,
+    "text": "Chapter: Heredity"
+   },
+   {
+    "id": "chapter-our-environment",
+    "level": 3,
+    "text": "Chapter: Our Environment"
+   },
+   {
+    "id": "section-b-chemistry",
+    "level": 2,
+    "text": "SECTION B: CHEMISTRY"
+   },
+   {
+    "id": "chapter-chemical-reactions-and-equations",
+    "level": 3,
+    "text": "Chapter: Chemical Reactions and Equations"
+   },
+   {
+    "id": "chapter-acids-bases-and-salts",
+    "level": 3,
+    "text": "Chapter: Acids, Bases and Salts"
+   },
+   {
+    "id": "chapter-metals-and-non-metals",
+    "level": 3,
+    "text": "Chapter: Metals and Non-metals"
+   },
+   {
+    "id": "chapter-carbon-and-its-compounds",
+    "level": 3,
+    "text": "Chapter: Carbon and its Compounds"
+   },
+   {
+    "id": "section-c-physics",
+    "level": 2,
+    "text": "SECTION C: PHYSICS"
+   },
+   {
+    "id": "chapter-light-reflection-and-refraction",
+    "level": 3,
+    "text": "Chapter: Light: Reflection and Refraction"
+   },
+   {
+    "id": "chapter-the-human-eye-and-the-colourful-world",
+    "level": 3,
+    "text": "Chapter: The Human Eye and the Colourful World"
+   },
+   {
+    "id": "chapter-electricity",
+    "level": 3,
+    "text": "Chapter: Electricity"
+   },
+   {
+    "id": "chapter-magnetic-effects-of-electric-current",
+    "level": 3,
+    "text": "Chapter: Magnetic Effects of Electric Current"
+   },
+   {
+    "id": "6-quick-revision-sheet",
+    "level": 2,
+    "text": "6. Quick revision sheet"
+   },
+   {
+    "id": "6a-physics-formulas-learn-these-and-you-can-do-every-numeric",
+    "level": 3,
+    "text": "6a. Physics formulas (learn these and you can do every numerical)"
+   },
+   {
+    "id": "6b-key-definitions-1-mark-favourites",
+    "level": 3,
+    "text": "6b. Key definitions (1-mark favourites)"
+   },
+   {
+    "id": "6c-chemistry-equations-to-learn-most-asked",
+    "level": 3,
+    "text": "6c. Chemistry equations to learn (★ most asked)"
+   },
+   {
+    "id": "6d-biology-tables",
+    "level": 3,
+    "text": "6d. Biology tables"
+   },
+   {
+    "id": "6e-diagrams-to-learn-draw-neatly-label-in-pencil",
+    "level": 3,
+    "text": "6e. Diagrams to learn (draw neatly, label in pencil)"
+   },
+   {
+    "id": "7-answer-writing-tips-to-collect-step-marks-and-a-30-day-tim",
+    "level": 2,
+    "text": "7. Answer-writing tips (to collect step marks) and a 30-day timetable"
+   },
+   {
+    "id": "7a-tips",
+    "level": 3,
+    "text": "7a. Tips"
+   },
+   {
+    "id": "7b-30-day-study-timetable-about-2-hours-a-day",
+    "level": 3,
+    "text": "7b. 30-day study timetable (about 2 hours a day)"
+   },
+   {
+    "id": "8-sources",
+    "level": 2,
+    "text": "8. Sources"
+   }
+  ],
+  "questions": 72,
+  "stars": 25,
+  "pdf": "X-086-science.pdf"
+ },
+ {
+  "id": "x-sst",
+  "cls": "X",
+  "name": "Social Science",
+  "code": "087",
+  "pass": "33/100 incl. internal (aim 32/80)",
+  "lang": "en",
+  "title": "CBSE Class X Social Science (087): Pass Pack 2026-27",
+  "toc": [
+   {
+    "id": "1-exam-at-a-glance-2026-27",
+    "level": 2,
+    "text": "1. Exam at a glance (2026-27)"
+   },
+   {
+    "id": "2-chapter-weightage-table-2026-27",
+    "level": 2,
+    "text": "2. Chapter weightage table (2026-27)"
+   },
+   {
+    "id": "3-the-33-mark-plan-target-about-40-32-marks-in-theory",
+    "level": 2,
+    "text": "3. The 33-mark plan (target about 40% = 32 marks in theory)"
+   },
+   {
+    "id": "3a-study-order-easiest-and-highest-return-first",
+    "level": 3,
+    "text": "3a. Study order (easiest and highest return first)"
+   },
+   {
+    "id": "3b-target-marks-table-theory-80",
+    "level": 3,
+    "text": "3b. Target-marks table (theory 80)"
+   },
+   {
+    "id": "3c-how-internal-assessment-helps-you",
+    "level": 3,
+    "text": "3c. How internal assessment helps you"
+   },
+   {
+    "id": "4-pyq-trend-analysis-papers-actually-read",
+    "level": 2,
+    "text": "4. PYQ trend analysis (papers actually read)"
+   },
+   {
+    "id": "history",
+    "level": 3,
+    "text": "History"
+   },
+   {
+    "id": "geography",
+    "level": 3,
+    "text": "Geography"
+   },
+   {
+    "id": "political-science",
+    "level": 3,
+    "text": "Political Science"
+   },
+   {
+    "id": "economics",
+    "level": 3,
+    "text": "Economics"
+   },
+   {
+    "id": "5-must-do-question-bank-72-questions",
+    "level": 2,
+    "text": "5. Must-do question bank (72 questions)"
+   },
+   {
+    "id": "part-1-mixed-mcqs-1-mark-each-all-four-sections",
+    "level": 3,
+    "text": "Part 1: Mixed MCQs (1 mark each, all four sections)"
+   },
+   {
+    "id": "part-2-history-section-a",
+    "level": 3,
+    "text": "Part 2: History (Section A)"
+   },
+   {
+    "id": "part-3-geography-section-b",
+    "level": 3,
+    "text": "Part 3: Geography (Section B)"
+   },
+   {
+    "id": "part-4-political-science-section-c",
+    "level": 3,
+    "text": "Part 4: Political Science (Section C)"
+   },
+   {
+    "id": "part-5-economics-section-d",
+    "level": 3,
+    "text": "Part 5: Economics (Section D)"
+   },
+   {
+    "id": "6-quick-revision-sheet",
+    "level": 2,
+    "text": "6. Quick revision sheet"
+   },
+   {
+    "id": "6a-history-important-dates",
+    "level": 3,
+    "text": "6a. History: important dates"
+   },
+   {
+    "id": "6b-history-key-terms-1-mark-favourites",
+    "level": 3,
+    "text": "6b. History: key terms (1-mark favourites)"
+   },
+   {
+    "id": "6c-geography-key-facts",
+    "level": 3,
+    "text": "6c. Geography: key facts"
+   },
+   {
+    "id": "6d-political-science-key-facts",
+    "level": 3,
+    "text": "6d. Political Science: key facts"
+   },
+   {
+    "id": "6e-economics-key-terms-and-formulas",
+    "level": 3,
+    "text": "6e. Economics: key terms and formulas"
+   },
+   {
+    "id": "6f-full-map-list-2026-27-curriculum-learn-all-of-these",
+    "level": 3,
+    "text": "6f. FULL MAP LIST (2026-27 curriculum): learn all of these"
+   },
+   {
+    "id": "7-answer-writing-tips-to-collect-step-marks-and-a-30-day-tim",
+    "level": 2,
+    "text": "7. Answer-writing tips (to collect step marks) and a 30-day timetable"
+   },
+   {
+    "id": "7a-tips",
+    "level": 3,
+    "text": "7a. Tips"
+   },
+   {
+    "id": "7b-30-day-study-timetable-about-2-hours-a-day",
+    "level": 3,
+    "text": "7b. 30-day study timetable (about 2 hours a day)"
+   },
+   {
+    "id": "8-sources-urls-actually-opened",
+    "level": 2,
+    "text": "8. Sources (URLs actually opened)"
+   }
+  ],
+  "questions": 72,
+  "stars": 56,
+  "pdf": "X-087-social-science.pdf"
+ },
+ {
+  "id": "x-english",
+  "cls": "X",
+  "name": "English Lang. & Lit.",
+  "code": "184",
+  "pass": "33/100 incl. internal",
+  "lang": "en",
+  "title": "CBSE Class X English Language and Literature (184): Pass Pack 2026-27",
+  "toc": [
+   {
+    "id": "1-exam-at-a-glance-2026-27",
+    "level": 2,
+    "text": "1. Exam at a glance (2026-27)"
+   },
+   {
+    "id": "2-section-and-chapter-weightage-2026-27",
+    "level": 2,
+    "text": "2. Section and chapter weightage (2026-27)"
+   },
+   {
+    "id": "2a-section-weightage",
+    "level": 3,
+    "text": "2a. Section weightage"
+   },
+   {
+    "id": "2b-literature-syllabus-2026-27",
+    "level": 3,
+    "text": "2b. Literature syllabus (2026-27)"
+   },
+   {
+    "id": "3-the-33-mark-plan-target-about-40-of-theory-32-marks",
+    "level": 2,
+    "text": "3. The 33-mark plan (target about 40% of theory = 32+ marks)"
+   },
+   {
+    "id": "3a-study-order-highest-return-first",
+    "level": 3,
+    "text": "3a. Study order (highest return first)"
+   },
+   {
+    "id": "3b-target-marks-table-theory-80",
+    "level": 3,
+    "text": "3b. Target-marks table (theory 80)"
+   },
+   {
+    "id": "3c-how-internal-assessment-helps",
+    "level": 3,
+    "text": "3c. How internal assessment helps"
+   },
+   {
+    "id": "4-pyq-trend-analysis-papers-actually-read",
+    "level": 2,
+    "text": "4. PYQ trend analysis (papers actually read)"
+   },
+   {
+    "id": "4a-literature-most-repeated",
+    "level": 3,
+    "text": "4a. Literature (most repeated)"
+   },
+   {
+    "id": "4b-writing-and-grammar",
+    "level": 3,
+    "text": "4b. Writing and grammar"
+   },
+   {
+    "id": "5-must-do-question-bank-86-questions",
+    "level": 2,
+    "text": "5. Must-do question bank (86 questions)"
+   },
+   {
+    "id": "part-a-reading-skills-q1-q2-pattern",
+    "level": 3,
+    "text": "Part A: Reading skills (Q1-Q2 pattern)"
+   },
+   {
+    "id": "part-b-grammar-q3-10-of-12",
+    "level": 3,
+    "text": "Part B: Grammar (Q3, 10 of 12)"
+   },
+   {
+    "id": "part-c-writing-q4-letter-q5-analytical-paragraph",
+    "level": 3,
+    "text": "Part C: Writing (Q4 letter, Q5 analytical paragraph)"
+   },
+   {
+    "id": "part-d-first-flight-prose-and-play",
+    "level": 3,
+    "text": "Part D: First Flight (prose and play)"
+   },
+   {
+    "id": "part-e-first-flight-poems",
+    "level": 3,
+    "text": "Part E: First Flight (poems)"
+   },
+   {
+    "id": "part-f-footprints-without-feet",
+    "level": 3,
+    "text": "Part F: Footprints Without Feet"
+   },
+   {
+    "id": "6-quick-revision-sheet",
+    "level": 2,
+    "text": "6. Quick revision sheet"
+   },
+   {
+    "id": "6a-formal-letter-format-q4-5-marks-format-1-mark",
+    "level": 3,
+    "text": "6a. Formal letter format (Q4, 5 marks; format = 1 mark)"
+   },
+   {
+    "id": "6b-analytical-paragraph-plan-q5-5-marks",
+    "level": 3,
+    "text": "6b. Analytical paragraph plan (Q5, 5 marks)"
+   },
+   {
+    "id": "6c-grammar-rule-boxes-q3",
+    "level": 3,
+    "text": "6c. Grammar rule boxes (Q3)"
+   },
+   {
+    "id": "6d-literature-one-line-memory-cards",
+    "level": 3,
+    "text": "6d. Literature: one-line memory cards"
+   },
+   {
+    "id": "7-answer-writing-tips-and-a-30-day-timetable",
+    "level": 2,
+    "text": "7. Answer-writing tips and a 30-day timetable"
+   },
+   {
+    "id": "7a-tips-to-collect-marks",
+    "level": 3,
+    "text": "7a. Tips to collect marks"
+   },
+   {
+    "id": "7b-30-day-study-timetable-about-1-5-2-hours-a-day",
+    "level": 3,
+    "text": "7b. 30-day study timetable (about 1.5-2 hours a day)"
+   },
+   {
+    "id": "8-sources-documents-actually-opened",
+    "level": 2,
+    "text": "8. Sources (documents actually opened)"
+   }
+  ],
+  "questions": 86,
+  "stars": 52,
+  "pdf": "X-184-english.pdf"
+ },
+ {
+  "id": "x-hindi",
+  "cls": "X",
+  "name": "हिंदी (A और B)",
+  "code": "002 / 085",
+  "pass": "33/100 आंतरिक सहित",
+  "lang": "hi",
+  "title": "CBSE कक्षा 10 हिंदी: पास पैक 2026-27",
+  "toc": [
+   {
+    "id": "1-परीक्षा-एक-नज़र-में-2026-27",
+    "level": 2,
+    "text": "1. परीक्षा एक नज़र में (2026-27)"
+   },
+   {
+    "id": "1a-दोनों-कोर्स-की-मुख्य-बातें-a-b",
+    "level": 3,
+    "text": "1a. दोनों कोर्स की मुख्य बातें [A+B]"
+   },
+   {
+    "id": "1b-कोर्स-a-002-का-प्रश्न-पत्र-2026-27-sqp-के-अनुसार-15-प्रश्",
+    "level": 3,
+    "text": "1b. कोर्स A (002) का प्रश्न-पत्र (2026-27 SQP के अनुसार, 15 प्रश्न)"
+   },
+   {
+    "id": "1c-कोर्स-b-085-का-प्रश्न-पत्र-2026-27-sqp-के-अनुसार-16-प्रश्",
+    "level": 3,
+    "text": "1c. कोर्स B (085) का प्रश्न-पत्र (2026-27 SQP के अनुसार, 16 प्रश्न)"
+   },
+   {
+    "id": "1d-पाठ्यक्रम-से-हटाए-गए-पाठ-इनसे-प्रश्न-नहीं-आएँगे",
+    "level": 3,
+    "text": "1d. पाठ्यक्रम से हटाए गए पाठ (इनसे प्रश्न नहीं आएँगे)"
+   },
+   {
+    "id": "2-अंक-विभाजन-वेटेज-तालिका-2026-27",
+    "level": 2,
+    "text": "2. अंक-विभाजन (वेटेज) तालिका 2026-27"
+   },
+   {
+    "id": "2a-कोर्स-a-002",
+    "level": 3,
+    "text": "2a. कोर्स A (002)"
+   },
+   {
+    "id": "2b-कोर्स-b-085",
+    "level": 3,
+    "text": "2b. कोर्स B (085)"
+   },
+   {
+    "id": "3-33-अंकों-की-योजना-लक्ष्य-लिखित-में-लगभग-40",
+    "level": 2,
+    "text": "3. 33 अंकों की योजना (लक्ष्य: लिखित में लगभग 40%)"
+   },
+   {
+    "id": "3a-पढ़ने-का-क्रम-सबसे-आसान-और-ज़्यादा-अंक-वाला-पहले",
+    "level": 3,
+    "text": "3a. पढ़ने का क्रम (सबसे आसान और ज़्यादा अंक वाला पहले)"
+   },
+   {
+    "id": "3b-लक्ष्य-अंक-तालिका",
+    "level": 3,
+    "text": "3b. लक्ष्य-अंक तालिका"
+   },
+   {
+    "id": "3c-आंतरिक-मूल्यांकन-से-कैसे-बचाव-होता-है",
+    "level": 3,
+    "text": "3c. आंतरिक मूल्यांकन से कैसे बचाव होता है"
+   },
+   {
+    "id": "4-पिछले-वर्षों-के-प्रश्नों-pyq-का-विश्लेषण",
+    "level": 2,
+    "text": "4. पिछले वर्षों के प्रश्नों (PYQ) का विश्लेषण"
+   },
+   {
+    "id": "4a-कोर्स-a-बार-बार-आने-वाले-विषय",
+    "level": 3,
+    "text": "4a. कोर्स A: बार-बार आने वाले विषय"
+   },
+   {
+    "id": "4b-कोर्स-b-बार-बार-आने-वाले-विषय",
+    "level": 3,
+    "text": "4b. कोर्स B: बार-बार आने वाले विषय"
+   },
+   {
+    "id": "5-ज़रूरी-प्रश्न-बैंक-97-प्रश्न-नियम-अभ्यास-मॉडल-उत्तर",
+    "level": 2,
+    "text": "5. ज़रूरी प्रश्न-बैंक: 97 प्रश्न (नियम + अभ्यास + मॉडल उत्तर)"
+   },
+   {
+    "id": "5a-व्याकरण-a-कोर्स-a-16-अंक",
+    "level": 3,
+    "text": "5A. व्याकरण [A]: कोर्स A (16 अंक)"
+   },
+   {
+    "id": "5b-व्याकरण-b-कोर्स-b-16-अंक",
+    "level": 3,
+    "text": "5B. व्याकरण [B]: कोर्स B (16 अंक)"
+   },
+   {
+    "id": "5c-पाठ्यपुस्तक-a-क्षितिज-काव्य-और-2-अंक-वाले-उत्तर",
+    "level": 3,
+    "text": "5C. पाठ्यपुस्तक [A]: क्षितिज (काव्य) और 2 अंक वाले उत्तर"
+   },
+   {
+    "id": "5d-पाठ्यपुस्तक-a-क्षितिज-गद्य",
+    "level": 3,
+    "text": "5D. पाठ्यपुस्तक [A]: क्षितिज (गद्य)"
+   },
+   {
+    "id": "5e-कृतिका-a-4-अंक-50-60-शब्द-चार-बिंदु",
+    "level": 3,
+    "text": "5E. कृतिका [A] (4 अंक, 50-60 शब्द, \"चार बिंदु\")"
+   },
+   {
+    "id": "5f-पाठ्यपुस्तक-b-स्पर्श-काव्य",
+    "level": 3,
+    "text": "5F. पाठ्यपुस्तक [B]: स्पर्श (काव्य)"
+   },
+   {
+    "id": "5g-पाठ्यपुस्तक-b-स्पर्श-गद्य",
+    "level": 3,
+    "text": "5G. पाठ्यपुस्तक [B]: स्पर्श (गद्य)"
+   },
+   {
+    "id": "5h-संचयन-b-3-अंक-50-60-शब्द-तीन-बिंदु",
+    "level": 3,
+    "text": "5H. संचयन [B] (3 अंक, 50-60 शब्द, \"तीन बिंदु\")"
+   },
+   {
+    "id": "5i-अपठित-बोध-a-b-14-अंक-कैसे-करें",
+    "level": 3,
+    "text": "5I. अपठित बोध [A+B] (14 अंक): कैसे करें"
+   },
+   {
+    "id": "5j-रचनात्मक-लेखन-प्रारूप-नमूने",
+    "level": 3,
+    "text": "5J. रचनात्मक लेखन: प्रारूप + नमूने"
+   },
+   {
+    "id": "6-जल्दी-दोहराने-वाली-शीट-क्विक-रिवीज़न",
+    "level": 2,
+    "text": "6. जल्दी दोहराने वाली शीट (क्विक रिवीज़न)"
+   },
+   {
+    "id": "6a-व्याकरण-एक-नज़र-में",
+    "level": 3,
+    "text": "6a. व्याकरण एक नज़र में"
+   },
+   {
+    "id": "6b-पाठ-और-लेखक-mcq-और-पठित-अंश-में-काम-आते-हैं",
+    "level": 3,
+    "text": "6b. पाठ और लेखक (MCQ और पठित अंश में काम आते हैं)"
+   },
+   {
+    "id": "6c-लेखन-शब्द-सीमा-और-अंक",
+    "level": 3,
+    "text": "6c. लेखन: शब्द-सीमा और अंक"
+   },
+   {
+    "id": "7-उत्तर-लिखने-के-तरीके-स्टेप-अंक-पाने-के-लिए-और-30-दिन-की-सम",
+    "level": 2,
+    "text": "7. उत्तर लिखने के तरीके (स्टेप-अंक पाने के लिए) और 30 दिन की समय-सारणी"
+   },
+   {
+    "id": "7a-ज़रूरी-सुझाव",
+    "level": 3,
+    "text": "7a. ज़रूरी सुझाव"
+   },
+   {
+    "id": "7b-30-दिन-की-समय-सारणी-रोज़-लगभग-1-5-2-घंटे",
+    "level": 3,
+    "text": "7b. 30 दिन की समय-सारणी (रोज़ लगभग 1.5-2 घंटे)"
+   },
+   {
+    "id": "8-स्रोत-जो-url-फ़ाइलें-वास्तव-में-खोली-गईं",
+    "level": 2,
+    "text": "8. स्रोत (जो URL/फ़ाइलें वास्तव में खोली गईं)"
+   }
+  ],
+  "questions": 89,
+  "stars": 53,
+  "pdf": "X-002-085-hindi.pdf"
+ },
+ {
+  "id": "xii-physics",
+  "cls": "XII",
+  "name": "Physics",
+  "code": "042",
+  "pass": "24/70 theory + 10/30 practical",
+  "lang": "en",
+  "title": "CBSE Class XII Physics (042) – Pass Pack 2026-27 (English medium)",
+  "toc": [
+   {
+    "id": "1-exam-at-a-glance",
+    "level": 2,
+    "text": "1. Exam at a glance"
+   },
+   {
+    "id": "2-unit-weightage-2026-27-curriculum",
+    "level": 2,
+    "text": "2. Unit weightage (2026-27 curriculum)"
+   },
+   {
+    "id": "3-the-33-mark-plan-study-these-first",
+    "level": 2,
+    "text": "3. The 33-mark plan (study these first)"
+   },
+   {
+    "id": "why-these-chapters",
+    "level": 3,
+    "text": "Why these chapters?"
+   },
+   {
+    "id": "target-marks-table-theory",
+    "level": 3,
+    "text": "Target marks table (theory)"
+   },
+   {
+    "id": "how-the-practical-helps",
+    "level": 3,
+    "text": "How the practical helps"
+   },
+   {
+    "id": "4-pyq-trend-analysis-papers-actually-read-for-this-pack",
+    "level": 2,
+    "text": "4. PYQ trend analysis (papers actually read for this pack)"
+   },
+   {
+    "id": "5-must-do-question-bank-115-questions",
+    "level": 2,
+    "text": "5. Must-do question bank (115 questions)"
+   },
+   {
+    "id": "chapter-1-electric-charges-and-fields",
+    "level": 3,
+    "text": "Chapter 1 – Electric Charges and Fields"
+   },
+   {
+    "id": "chapter-2-electrostatic-potential-and-capacitance",
+    "level": 3,
+    "text": "Chapter 2 – Electrostatic Potential and Capacitance"
+   },
+   {
+    "id": "chapter-3-current-electricity",
+    "level": 3,
+    "text": "Chapter 3 – Current Electricity"
+   },
+   {
+    "id": "chapter-4-moving-charges-and-magnetism",
+    "level": 3,
+    "text": "Chapter 4 – Moving Charges and Magnetism"
+   },
+   {
+    "id": "chapter-5-magnetism-and-matter",
+    "level": 3,
+    "text": "Chapter 5 – Magnetism and Matter"
+   },
+   {
+    "id": "chapter-6-electromagnetic-induction",
+    "level": 3,
+    "text": "Chapter 6 – Electromagnetic Induction"
+   },
+   {
+    "id": "chapter-7-alternating-current",
+    "level": 3,
+    "text": "Chapter 7 – Alternating Current"
+   },
+   {
+    "id": "chapter-8-electromagnetic-waves",
+    "level": 3,
+    "text": "Chapter 8 – Electromagnetic Waves"
+   },
+   {
+    "id": "chapter-9-ray-optics-and-optical-instruments",
+    "level": 3,
+    "text": "Chapter 9 – Ray Optics and Optical Instruments"
+   },
+   {
+    "id": "chapter-10-wave-optics",
+    "level": 3,
+    "text": "Chapter 10 – Wave Optics"
+   },
+   {
+    "id": "chapter-11-dual-nature-of-radiation-and-matter",
+    "level": 3,
+    "text": "Chapter 11 – Dual Nature of Radiation and Matter"
+   },
+   {
+    "id": "chapter-12-atoms",
+    "level": 3,
+    "text": "Chapter 12 – Atoms"
+   },
+   {
+    "id": "chapter-13-nuclei",
+    "level": 3,
+    "text": "Chapter 13 – Nuclei"
+   },
+   {
+    "id": "chapter-14-semiconductor-electronics",
+    "level": 3,
+    "text": "Chapter 14 – Semiconductor Electronics"
+   },
+   {
+    "id": "6-quick-revision-sheet",
+    "level": 2,
+    "text": "6. Quick revision sheet"
+   },
+   {
+    "id": "key-definitions-one-line-each",
+    "level": 3,
+    "text": "Key definitions (one line each)"
+   },
+   {
+    "id": "must-know-formulas",
+    "level": 3,
+    "text": "Must-know formulas"
+   },
+   {
+    "id": "diagrams-to-learn-practise-drawing-each-3-times",
+    "level": 3,
+    "text": "Diagrams to learn (practise drawing each 3 times)"
+   },
+   {
+    "id": "em-spectrum-memory-line",
+    "level": 3,
+    "text": "EM spectrum memory line"
+   },
+   {
+    "id": "7-answer-writing-tips-and-30-day-timetable",
+    "level": 2,
+    "text": "7. Answer-writing tips and 30-day timetable"
+   },
+   {
+    "id": "how-to-grab-step-marks",
+    "level": 3,
+    "text": "How to grab step marks"
+   },
+   {
+    "id": "30-day-timetable-about-2-hours-a-day",
+    "level": 3,
+    "text": "30-day timetable (about 2 hours a day)"
+   },
+   {
+    "id": "8-sources-opened-for-this-pack",
+    "level": 2,
+    "text": "8. Sources (opened for this pack)"
+   }
+  ],
+  "questions": 115,
+  "stars": 48,
+  "pdf": "XII-042-physics.pdf"
+ },
+ {
+  "id": "xii-chemistry",
+  "cls": "XII",
+  "name": "Chemistry",
+  "code": "043",
+  "pass": "23/70 theory + 10/30 practical",
+  "lang": "en",
+  "title": "CBSE Class XII Chemistry (043): Pass Pack 2026-27",
+  "toc": [
+   {
+    "id": "1-exam-at-a-glance-2026-27",
+    "level": 2,
+    "text": "1. Exam at a glance (2026-27)"
+   },
+   {
+    "id": "2-unit-weightage-table-2026-27-curriculum-theory-70",
+    "level": 2,
+    "text": "2. Unit weightage table (2026-27 curriculum, theory 70)"
+   },
+   {
+    "id": "3-the-33-mark-plan-target-about-40-28-marks-in-theory",
+    "level": 2,
+    "text": "3. The 33-mark plan (target about 40% = 28 marks in theory)"
+   },
+   {
+    "id": "3a-study-order-easiest-and-highest-return-first",
+    "level": 3,
+    "text": "3a. Study order (easiest and highest return first)"
+   },
+   {
+    "id": "3b-target-marks-table-theory",
+    "level": 3,
+    "text": "3b. Target-marks table (theory)"
+   },
+   {
+    "id": "3c-how-practicals-save-you",
+    "level": 3,
+    "text": "3c. How practicals save you"
+   },
+   {
+    "id": "4-pyq-trend-analysis-papers-actually-read",
+    "level": 2,
+    "text": "4. PYQ trend analysis (papers actually read)"
+   },
+   {
+    "id": "5-must-do-question-bank-72-questions",
+    "level": 2,
+    "text": "5. Must-do question bank (72 questions)"
+   },
+   {
+    "id": "chapter-1-solutions",
+    "level": 3,
+    "text": "Chapter 1: Solutions"
+   },
+   {
+    "id": "chapter-2-electrochemistry",
+    "level": 3,
+    "text": "Chapter 2: Electrochemistry"
+   },
+   {
+    "id": "chapter-3-chemical-kinetics",
+    "level": 3,
+    "text": "Chapter 3: Chemical Kinetics"
+   },
+   {
+    "id": "chapter-4-d-and-f-block-elements",
+    "level": 3,
+    "text": "Chapter 4: d- and f-Block Elements"
+   },
+   {
+    "id": "chapter-5-coordination-compounds",
+    "level": 3,
+    "text": "Chapter 5: Coordination Compounds"
+   },
+   {
+    "id": "chapter-6-haloalkanes-and-haloarenes",
+    "level": 3,
+    "text": "Chapter 6: Haloalkanes and Haloarenes"
+   },
+   {
+    "id": "chapter-7-alcohols-phenols-and-ethers",
+    "level": 3,
+    "text": "Chapter 7: Alcohols, Phenols and Ethers"
+   },
+   {
+    "id": "chapter-8-aldehydes-ketones-and-carboxylic-acids",
+    "level": 3,
+    "text": "Chapter 8: Aldehydes, Ketones and Carboxylic Acids"
+   },
+   {
+    "id": "chapter-9-amines",
+    "level": 3,
+    "text": "Chapter 9: Amines"
+   },
+   {
+    "id": "chapter-10-biomolecules",
+    "level": 3,
+    "text": "Chapter 10: Biomolecules"
+   },
+   {
+    "id": "6-quick-revision-sheet",
+    "level": 2,
+    "text": "6. Quick revision sheet"
+   },
+   {
+    "id": "6a-formulas-learn-these-20-and-you-can-do-every-numerical",
+    "level": 3,
+    "text": "6a. Formulas (learn these 20 and you can do every numerical)"
+   },
+   {
+    "id": "6b-key-definitions-1-mark-favourites",
+    "level": 3,
+    "text": "6b. Key definitions (1-mark favourites)"
+   },
+   {
+    "id": "6c-named-reactions-one-line-list-most-asked",
+    "level": 3,
+    "text": "6c. Named reactions: one-line list (★ most asked)"
+   },
+   {
+    "id": "6d-standard-conversions-2-3-steps-from-pyqs",
+    "level": 3,
+    "text": "6d. Standard conversions (2-3 steps), from PYQs"
+   },
+   {
+    "id": "6e-diagrams-to-learn-describe-and-draw-neatly",
+    "level": 3,
+    "text": "6e. Diagrams to learn (describe and draw neatly)"
+   },
+   {
+    "id": "7-answer-writing-tips-to-collect-step-marks-and-a-30-day-tim",
+    "level": 2,
+    "text": "7. Answer-writing tips (to collect step marks) and a 30-day timetable"
+   },
+   {
+    "id": "7a-tips",
+    "level": 3,
+    "text": "7a. Tips"
+   },
+   {
+    "id": "7b-30-day-study-timetable-about-2-hours-a-day",
+    "level": 3,
+    "text": "7b. 30-day study timetable (about 2 hours a day)"
+   },
+   {
+    "id": "8-sources-urls-actually-opened",
+    "level": 2,
+    "text": "8. Sources (URLs actually opened)"
+   }
+  ],
+  "questions": 72,
+  "stars": 50,
+  "pdf": "XII-043-chemistry.pdf"
+ },
+ {
+  "id": "xii-maths",
+  "cls": "XII",
+  "name": "Mathematics",
+  "code": "041",
+  "pass": "27/80 theory + 7/20 internal",
+  "lang": "en",
+  "title": "CBSE Class XII Mathematics (041): Pass Pack 2026-27",
+  "toc": [
+   {
+    "id": "1-exam-at-a-glance-2026-27",
+    "level": 2,
+    "text": "1. Exam at a glance (2026-27)"
+   },
+   {
+    "id": "2-unit-weightage-table-2026-27-curriculum-theory-80",
+    "level": 2,
+    "text": "2. Unit weightage table (2026-27 curriculum, theory 80)"
+   },
+   {
+    "id": "3-the-33-mark-plan-target-about-34-marks-in-theory-safely-ab",
+    "level": 2,
+    "text": "3. The 33-mark plan (target about 34 marks in theory, safely above 26)"
+   },
+   {
+    "id": "3a-study-order-easiest-and-highest-return-first",
+    "level": 3,
+    "text": "3a. Study order (easiest and highest return first)"
+   },
+   {
+    "id": "3b-target-marks-table-theory",
+    "level": 3,
+    "text": "3b. Target-marks table (theory)"
+   },
+   {
+    "id": "3c-how-internal-assessment-helps",
+    "level": 3,
+    "text": "3c. How internal assessment helps"
+   },
+   {
+    "id": "4-pyq-trend-analysis-papers-actually-read",
+    "level": 2,
+    "text": "4. PYQ trend analysis (papers actually read)"
+   },
+   {
+    "id": "5-must-do-question-bank-98-questions",
+    "level": 2,
+    "text": "5. Must-do question bank (98 questions)"
+   },
+   {
+    "id": "chapter-1-relations-and-functions",
+    "level": 3,
+    "text": "Chapter 1: Relations and Functions"
+   },
+   {
+    "id": "chapter-2-inverse-trigonometric-functions",
+    "level": 3,
+    "text": "Chapter 2: Inverse Trigonometric Functions"
+   },
+   {
+    "id": "chapter-3-matrices",
+    "level": 3,
+    "text": "Chapter 3: Matrices"
+   },
+   {
+    "id": "chapter-4-determinants",
+    "level": 3,
+    "text": "Chapter 4: Determinants"
+   },
+   {
+    "id": "chapter-5-continuity-and-differentiability",
+    "level": 3,
+    "text": "Chapter 5: Continuity and Differentiability"
+   },
+   {
+    "id": "chapter-6-applications-of-derivatives-aod",
+    "level": 3,
+    "text": "Chapter 6: Applications of Derivatives (AOD)"
+   },
+   {
+    "id": "chapter-7-integrals",
+    "level": 3,
+    "text": "Chapter 7: Integrals"
+   },
+   {
+    "id": "chapter-8-application-of-integrals-area",
+    "level": 3,
+    "text": "Chapter 8: Application of Integrals (Area)"
+   },
+   {
+    "id": "chapter-9-differential-equations",
+    "level": 3,
+    "text": "Chapter 9: Differential Equations"
+   },
+   {
+    "id": "chapter-10-vectors",
+    "level": 3,
+    "text": "Chapter 10: Vectors"
+   },
+   {
+    "id": "chapter-11-three-dimensional-geometry-lines-only",
+    "level": 3,
+    "text": "Chapter 11: Three-dimensional Geometry (lines only)"
+   },
+   {
+    "id": "chapter-12-linear-programming",
+    "level": 3,
+    "text": "Chapter 12: Linear Programming"
+   },
+   {
+    "id": "chapter-13-probability",
+    "level": 3,
+    "text": "Chapter 13: Probability"
+   },
+   {
+    "id": "6-quick-revision-sheet",
+    "level": 2,
+    "text": "6. Quick revision sheet"
+   },
+   {
+    "id": "relations-and-functions",
+    "level": 3,
+    "text": "Relations and functions"
+   },
+   {
+    "id": "inverse-trigonometric-functions-principal-value-branches",
+    "level": 3,
+    "text": "Inverse trigonometric functions (principal value branches)"
+   },
+   {
+    "id": "matrices-and-determinants",
+    "level": 3,
+    "text": "Matrices and determinants"
+   },
+   {
+    "id": "continuity-and-differentiability",
+    "level": 3,
+    "text": "Continuity and differentiability"
+   },
+   {
+    "id": "applications-of-derivatives",
+    "level": 3,
+    "text": "Applications of derivatives"
+   },
+   {
+    "id": "integrals-standard-results-c",
+    "level": 3,
+    "text": "Integrals (standard results, + C)"
+   },
+   {
+    "id": "area",
+    "level": 3,
+    "text": "Area"
+   },
+   {
+    "id": "differential-equations",
+    "level": 3,
+    "text": "Differential equations"
+   },
+   {
+    "id": "vectors",
+    "level": 3,
+    "text": "Vectors"
+   },
+   {
+    "id": "3-d-geometry-lines-only",
+    "level": 3,
+    "text": "3-D geometry (lines only)"
+   },
+   {
+    "id": "linear-programming",
+    "level": 3,
+    "text": "Linear programming"
+   },
+   {
+    "id": "probability",
+    "level": 3,
+    "text": "Probability"
+   },
+   {
+    "id": "7-answer-writing-tips-and-30-day-timetable",
+    "level": 2,
+    "text": "7. Answer-writing tips and 30-day timetable"
+   },
+   {
+    "id": "how-to-grab-step-marks-and-partial-marks",
+    "level": 3,
+    "text": "How to grab step marks and partial marks"
+   },
+   {
+    "id": "30-day-study-timetable-about-2-hours-a-day",
+    "level": 3,
+    "text": "30-day study timetable (about 2 hours a day)"
+   },
+   {
+    "id": "8-sources-opened-for-this-pack",
+    "level": 2,
+    "text": "8. Sources (opened for this pack)"
+   }
+  ],
+  "questions": 98,
+  "stars": 37,
+  "pdf": "XII-041-maths.pdf"
+ },
+ {
+  "id": "xii-biology",
+  "cls": "XII",
+  "name": "Biology",
+  "code": "044",
+  "pass": "24/70 theory + 10/30 practical",
+  "lang": "en",
+  "title": "CBSE Class XII Biology (044) — Pass Pack 2026-27 (English medium)",
+  "toc": [
+   {
+    "id": "1-exam-at-a-glance-2026-27",
+    "level": 2,
+    "text": "1. Exam at a glance (2026-27)"
+   },
+   {
+    "id": "2-unit-chapter-weightage-2026-27",
+    "level": 2,
+    "text": "2. Unit / chapter weightage (2026-27)"
+   },
+   {
+    "id": "3-the-33-mark-plan-how-to-pass-safely",
+    "level": 2,
+    "text": "3. The 33-mark plan (how to pass safely)"
+   },
+   {
+    "id": "4-previous-year-question-pyq-trends-2015-2026",
+    "level": 2,
+    "text": "4. Previous year question (PYQ) trends, 2015–2026"
+   },
+   {
+    "id": "5-must-do-question-bank-103-questions",
+    "level": 2,
+    "text": "5. Must-do question bank (103 questions)"
+   },
+   {
+    "id": "chapter-1-sexual-reproduction-in-flowering-plants",
+    "level": 3,
+    "text": "Chapter 1 — Sexual Reproduction in Flowering Plants"
+   },
+   {
+    "id": "chapter-2-human-reproduction",
+    "level": 3,
+    "text": "Chapter 2 — Human Reproduction"
+   },
+   {
+    "id": "chapter-3-reproductive-health",
+    "level": 3,
+    "text": "Chapter 3 — Reproductive Health"
+   },
+   {
+    "id": "chapter-4-principles-of-inheritance-and-variation",
+    "level": 3,
+    "text": "Chapter 4 — Principles of Inheritance and Variation"
+   },
+   {
+    "id": "chapter-5-molecular-basis-of-inheritance",
+    "level": 3,
+    "text": "Chapter 5 — Molecular Basis of Inheritance"
+   },
+   {
+    "id": "chapter-6-evolution",
+    "level": 3,
+    "text": "Chapter 6 — Evolution"
+   },
+   {
+    "id": "chapter-7-human-health-and-disease",
+    "level": 3,
+    "text": "Chapter 7 — Human Health and Disease"
+   },
+   {
+    "id": "chapter-8-microbes-in-human-welfare",
+    "level": 3,
+    "text": "Chapter 8 — Microbes in Human Welfare"
+   },
+   {
+    "id": "chapters-9-10-biotechnology",
+    "level": 3,
+    "text": "Chapters 9 & 10 — Biotechnology"
+   },
+   {
+    "id": "chapter-11-organisms-and-populations",
+    "level": 3,
+    "text": "Chapter 11 — Organisms and Populations"
+   },
+   {
+    "id": "chapter-12-ecosystem",
+    "level": 3,
+    "text": "Chapter 12 — Ecosystem"
+   },
+   {
+    "id": "chapter-13-biodiversity-and-its-conservation",
+    "level": 3,
+    "text": "Chapter 13 — Biodiversity and its Conservation"
+   },
+   {
+    "id": "6-quick-revision-sheet",
+    "level": 2,
+    "text": "6. Quick revision sheet"
+   },
+   {
+    "id": "6-1-key-one-liners-high-frequency-1-mark-facts",
+    "level": 3,
+    "text": "6.1 Key one-liners (high-frequency 1-mark facts)"
+   },
+   {
+    "id": "6-2-simple-formulas-calculations",
+    "level": 3,
+    "text": "6.2 Simple formulas / calculations"
+   },
+   {
+    "id": "6-3-diagrams-most-asked-what-to-draw-and-label",
+    "level": 3,
+    "text": "6.3 Diagrams most asked — what to draw and label"
+   },
+   {
+    "id": "6-4-practical-viva-quick-answers",
+    "level": 3,
+    "text": "6.4 Practical viva quick answers"
+   },
+   {
+    "id": "7-answer-writing-tips-and-30-day-timetable",
+    "level": 2,
+    "text": "7. Answer-writing tips and 30-day timetable"
+   },
+   {
+    "id": "7-1-how-to-grab-step-marks",
+    "level": 3,
+    "text": "7.1 How to grab step marks"
+   },
+   {
+    "id": "7-2-30-day-study-timetable-about-1-5-2-hours-a-day",
+    "level": 3,
+    "text": "7.2 30-day study timetable (about 1.5–2 hours a day)"
+   },
+   {
+    "id": "8-sources-opened-for-this-pack",
+    "level": 2,
+    "text": "8. Sources (opened for this pack)"
+   }
+  ],
+  "questions": 103,
+  "stars": 77,
+  "pdf": "XII-044-biology.pdf"
+ },
+ {
+  "id": "xii-cs",
+  "cls": "XII",
+  "name": "Computer Science",
+  "code": "083",
+  "pass": "24/70 theory + 10/30 practical",
+  "lang": "en",
+  "title": "CBSE Class XII Computer Science (083): Pass Pack 2026-27",
+  "toc": [
+   {
+    "id": "1-exam-at-a-glance-2026-27",
+    "level": 2,
+    "text": "1. Exam at a glance (2026-27)"
+   },
+   {
+    "id": "2-unit-weightage-table-2026-27-curriculum-theory-70",
+    "level": 2,
+    "text": "2. Unit weightage table (2026-27 curriculum, theory 70)"
+   },
+   {
+    "id": "3-the-33-mark-plan-target-about-43-30-marks-in-theory",
+    "level": 2,
+    "text": "3. The 33-mark plan (target about 43% = 30 marks in theory)"
+   },
+   {
+    "id": "3a-study-order-easiest-and-highest-return-first",
+    "level": 3,
+    "text": "3a. Study order (easiest and highest return first)"
+   },
+   {
+    "id": "3b-target-marks-table-theory",
+    "level": 3,
+    "text": "3b. Target-marks table (theory)"
+   },
+   {
+    "id": "3c-how-practicals-save-you",
+    "level": 3,
+    "text": "3c. How practicals save you"
+   },
+   {
+    "id": "4-pyq-trend-analysis-papers-actually-read",
+    "level": 2,
+    "text": "4. PYQ trend analysis (papers actually read)"
+   },
+   {
+    "id": "5-must-do-question-bank-91-questions",
+    "level": 2,
+    "text": "5. Must-do question bank (91 questions)"
+   },
+   {
+    "id": "unit-1a-python-revision-strings-lists-tuples-dictionaries-op",
+    "level": 3,
+    "text": "Unit 1A: Python revision (strings, lists, tuples, dictionaries, operators)"
+   },
+   {
+    "id": "unit-1b-error-finding-2-marks-asked-every-year",
+    "level": 3,
+    "text": "Unit 1B: Error finding (2 marks, asked every year)"
+   },
+   {
+    "id": "unit-1c-functions-scope-random-module-exceptions",
+    "level": 3,
+    "text": "Unit 1C: Functions, scope, random module, exceptions"
+   },
+   {
+    "id": "unit-1d-file-handling-text-binary-csv",
+    "level": 3,
+    "text": "Unit 1D: File handling (text, binary, CSV)"
+   },
+   {
+    "id": "unit-1e-stack-3-marks-asked-every-year",
+    "level": 3,
+    "text": "Unit 1E: Stack (3 marks, asked every year)"
+   },
+   {
+    "id": "unit-2-computer-networks",
+    "level": 3,
+    "text": "Unit 2: Computer Networks"
+   },
+   {
+    "id": "unit-3-database-concepts-and-sql",
+    "level": 3,
+    "text": "Unit 3: Database concepts and SQL"
+   },
+   {
+    "id": "unit-3b-python-mysql-connectivity-4-marks-asked-every-year-s",
+    "level": 3,
+    "text": "Unit 3B: Python-MySQL connectivity (4 marks, asked every year since 2023)"
+   },
+   {
+    "id": "6-quick-revision-sheet",
+    "level": 2,
+    "text": "6. Quick revision sheet"
+   },
+   {
+    "id": "6a-python-one-liners-to-remember",
+    "level": 3,
+    "text": "6a. Python one-liners to remember"
+   },
+   {
+    "id": "6b-file-handling-templates",
+    "level": 3,
+    "text": "6b. File handling templates"
+   },
+   {
+    "id": "6c-sql-patterns-learn-these-15-and-the-connectivity-template",
+    "level": 3,
+    "text": "6c. SQL patterns (learn these 15) and the connectivity template"
+   },
+   {
+    "id": "6d-networks-terms-and-the-case-study-answer-key",
+    "level": 3,
+    "text": "6d. Networks: terms and the case-study answer key"
+   },
+   {
+    "id": "7-answer-writing-tips-to-collect-step-marks-and-a-30-day-tim",
+    "level": 2,
+    "text": "7. Answer-writing tips (to collect step marks) and a 30-day timetable"
+   },
+   {
+    "id": "7a-tips",
+    "level": 3,
+    "text": "7a. Tips"
+   },
+   {
+    "id": "7b-30-day-study-timetable-about-2-hours-a-day",
+    "level": 3,
+    "text": "7b. 30-day study timetable (about 2 hours a day)"
+   },
+   {
+    "id": "8-sources-urls-actually-opened",
+    "level": 2,
+    "text": "8. Sources (URLs actually opened)"
+   }
+  ],
+  "questions": 91,
+  "stars": 55,
+  "pdf": "XII-083-computer-science.pdf"
+ },
+ {
+  "id": "xii-english",
+  "cls": "XII",
+  "name": "English Core",
+  "code": "301",
+  "pass": "27/80 theory + 7/20 internal",
+  "lang": "en",
+  "title": "CBSE Class XII English Core (301): Pass Pack 2026-27",
+  "toc": [
+   {
+    "id": "1-exam-at-a-glance-2026-27",
+    "level": 2,
+    "text": "1. Exam at a glance (2026-27)"
+   },
+   {
+    "id": "2-weightage-table-2026-27-curriculum-theory-80",
+    "level": 2,
+    "text": "2. Weightage table (2026-27 curriculum, theory 80)"
+   },
+   {
+    "id": "3-the-33-mark-plan-target-about-40-45-32-36-marks-in-theory",
+    "level": 2,
+    "text": "3. The 33-mark plan (target about 40-45% = 32-36 marks in theory)"
+   },
+   {
+    "id": "3a-study-order-easiest-and-highest-return-first",
+    "level": 3,
+    "text": "3a. Study order (easiest and highest return first)"
+   },
+   {
+    "id": "3b-target-marks-table-theory",
+    "level": 3,
+    "text": "3b. Target-marks table (theory)"
+   },
+   {
+    "id": "3c-how-internal-assessment-saves-you",
+    "level": 3,
+    "text": "3c. How internal assessment saves you"
+   },
+   {
+    "id": "4-pyq-trend-analysis-papers-actually-read",
+    "level": 2,
+    "text": "4. PYQ trend analysis (papers actually read)"
+   },
+   {
+    "id": "4a-writing-tasks",
+    "level": 3,
+    "text": "4a. Writing tasks"
+   },
+   {
+    "id": "4b-literature-chapters-by-year-extract-short-answer-or-long-",
+    "level": 3,
+    "text": "4b. Literature: chapters by year (extract, short answer or long answer)"
+   },
+   {
+    "id": "4c-questions-that-repeat-same-idea-asked-again",
+    "level": 3,
+    "text": "4c. Questions that repeat (same idea asked again)"
+   },
+   {
+    "id": "5-must-do-question-bank-80-questions",
+    "level": 2,
+    "text": "5. Must-do question bank (80 questions)"
+   },
+   {
+    "id": "part-a-writing-q1-q9-with-full-sample-answers",
+    "level": 3,
+    "text": "Part A: Writing (Q1-Q9), with full sample answers"
+   },
+   {
+    "id": "part-b-reading-skills-q10-q12-solved-from-the-2026-27-sqp",
+    "level": 3,
+    "text": "Part B: Reading skills (Q10-Q12), solved from the 2026-27 SQP"
+   },
+   {
+    "id": "part-c-flamingo-prose-short-answers-40-50-words-q13-q37",
+    "level": 3,
+    "text": "Part C: Flamingo prose, short answers 40-50 words (Q13-Q37)"
+   },
+   {
+    "id": "part-d-flamingo-poetry-q38-q52",
+    "level": 3,
+    "text": "Part D: Flamingo poetry (Q38-Q52)"
+   },
+   {
+    "id": "part-e-vistas-short-answers-40-50-words-q53-q70",
+    "level": 3,
+    "text": "Part E: Vistas short answers 40-50 words (Q53-Q70)"
+   },
+   {
+    "id": "part-f-extract-practice-q71-q72-the-question-style-used-in-q",
+    "level": 3,
+    "text": "Part F: Extract practice (Q71-Q72), the question style used in Q7-Q9"
+   },
+   {
+    "id": "part-g-long-answers-120-150-words-q73-q80",
+    "level": 3,
+    "text": "Part G: Long answers, 120-150 words (Q73-Q80)"
+   },
+   {
+    "id": "6-quick-revision-sheet",
+    "level": 2,
+    "text": "6. Quick revision sheet"
+   },
+   {
+    "id": "6a-writing-formats-learn-by-heart-1-format-mark-in-each-of-q",
+    "level": 3,
+    "text": "6a. Writing formats (learn by heart; 1 format mark in each of Q3-Q6)"
+   },
+   {
+    "id": "6b-chapter-in-one-line-who-what-theme",
+    "level": 3,
+    "text": "6b. Chapter-in-one-line (who, what, theme)"
+   },
+   {
+    "id": "6c-poetic-devices-that-are-asked-in-extracts",
+    "level": 3,
+    "text": "6c. Poetic devices that are asked in extracts"
+   },
+   {
+    "id": "6d-reading-section-question-types-and-tricks",
+    "level": 3,
+    "text": "6d. Reading section question types and tricks"
+   },
+   {
+    "id": "7-answer-writing-tips-and-a-30-day-timetable",
+    "level": 2,
+    "text": "7. Answer-writing tips and a 30-day timetable"
+   },
+   {
+    "id": "7a-tips-to-collect-marks",
+    "level": 3,
+    "text": "7a. Tips to collect marks"
+   },
+   {
+    "id": "7b-30-day-study-timetable-about-1-5-2-hours-a-day",
+    "level": 3,
+    "text": "7b. 30-day study timetable (about 1.5-2 hours a day)"
+   },
+   {
+    "id": "8-sources-documents-actually-opened",
+    "level": 2,
+    "text": "8. Sources (documents actually opened)"
+   }
+  ],
+  "questions": 80,
+  "stars": 63,
+  "pdf": "XII-301-english-core.pdf"
+ },
+ {
+  "id": "xii-hindi",
+  "cls": "XII",
+  "name": "हिंदी कोर",
+  "code": "302",
+  "pass": "27/80 सैद्धांतिक + 7/20 आंतरिक",
+  "lang": "hi",
+  "title": "CBSE कक्षा 12 हिंदी (आधार) (302): पास पैक 2026-27",
+  "toc": [
+   {
+    "id": "1-परीक्षा-एक-नज़र-में-2026-27",
+    "level": 2,
+    "text": "1. परीक्षा एक नज़र में (2026-27)"
+   },
+   {
+    "id": "2-पाठ्यक्रम-और-अंक-भार-2026-27",
+    "level": 2,
+    "text": "2. पाठ्यक्रम और अंक-भार (2026-27)"
+   },
+   {
+    "id": "2a-खंड-वार-अंक",
+    "level": 3,
+    "text": "2a. खंड-वार अंक"
+   },
+   {
+    "id": "2b-पढ़ने-वाले-पाठ-केवल-ये",
+    "level": 3,
+    "text": "2b. पढ़ने वाले पाठ (केवल ये)"
+   },
+   {
+    "id": "3-33-वाली-योजना-लक्ष्य-लगभग-44-35-अंक-लिखित-में",
+    "level": 2,
+    "text": "3. 33% वाली योजना (लक्ष्य लगभग 44% = 35 अंक लिखित में)"
+   },
+   {
+    "id": "3a-पढ़ाई-का-क्रम-आसान-और-ज़्यादा-अंक-वाला-पहले",
+    "level": 3,
+    "text": "3a. पढ़ाई का क्रम (आसान और ज़्यादा अंक वाला पहले)"
+   },
+   {
+    "id": "3b-लक्ष्य-अंक-तालिका-लिखित",
+    "level": 3,
+    "text": "3b. लक्ष्य-अंक तालिका (लिखित)"
+   },
+   {
+    "id": "3c-आंतरिक-मूल्यांकन-से-कैसे-मदद-मिलती-है",
+    "level": 3,
+    "text": "3c. आंतरिक मूल्यांकन से कैसे मदद मिलती है"
+   },
+   {
+    "id": "4-pyq-प्रवृत्ति-विश्लेषण-जो-पेपर-सचमुच-पढ़े-गए",
+    "level": 2,
+    "text": "4. PYQ प्रवृत्ति विश्लेषण (जो पेपर सचमुच पढ़े गए)"
+   },
+   {
+    "id": "4a-खंड-ख-अभिव्यक्ति-और-माध्यम",
+    "level": 3,
+    "text": "4a. खंड ख (अभिव्यक्ति और माध्यम)"
+   },
+   {
+    "id": "4b-खंड-ग-आरोह-वितान",
+    "level": 3,
+    "text": "4b. खंड ग (आरोह + वितान)"
+   },
+   {
+    "id": "5-ज़रूरी-प्रश्न-बैंक-75-प्रश्न-आदर्श-उत्तर-सहित",
+    "level": 2,
+    "text": "5. ज़रूरी प्रश्न-बैंक (75 प्रश्न, आदर्श उत्तर सहित)"
+   },
+   {
+    "id": "भाग-अ-अपठित-बोध-प्रश्न-1-2-तरीका",
+    "level": 3,
+    "text": "भाग अ: अपठित बोध (प्रश्न 1-2) — तरीका"
+   },
+   {
+    "id": "भाग-ब-रचनात्मक-लेखन-प्रश्न-3-6-अंक",
+    "level": 3,
+    "text": "भाग ब: रचनात्मक लेखन (प्रश्न 3, 6 अंक)"
+   },
+   {
+    "id": "भाग-स-अभिव्यक्ति-और-माध्यम-प्रश्न-4-और-5",
+    "level": 3,
+    "text": "भाग स: अभिव्यक्ति और माध्यम (प्रश्न 4 और 5)"
+   },
+   {
+    "id": "भाग-द-आरोह-भाग-2-काव्य-खंड-प्रश्न-6-7-8",
+    "level": 3,
+    "text": "भाग द: आरोह भाग 2, काव्य खंड (प्रश्न 6, 7, 8)"
+   },
+   {
+    "id": "भाग-इ-आरोह-भाग-2-गद्य-खंड-प्रश्न-9-10-11",
+    "level": 3,
+    "text": "भाग इ: आरोह भाग 2, गद्य खंड (प्रश्न 9, 10, 11)"
+   },
+   {
+    "id": "भाग-उ-वितान-भाग-2-प्रश्न-12-5-अंक-लगभग-100-शब्द",
+    "level": 3,
+    "text": "भाग उ: वितान भाग 2 (प्रश्न 12, 5 अंक, लगभग 100 शब्द)"
+   },
+   {
+    "id": "6-त्वरित-दोहराव-पत्रक-quick-revision-sheet",
+    "level": 2,
+    "text": "6. त्वरित दोहराव पत्रक (Quick revision sheet)"
+   },
+   {
+    "id": "6a-लेखन-प्रारूप-2026-27-में-क्या-आता-है-और-क्या-नहीं",
+    "level": 3,
+    "text": "6a. लेखन प्रारूप: 2026-27 में क्या आता है और क्या नहीं"
+   },
+   {
+    "id": "6b-रचनात्मक-लेखन-का-ढाँचा-हर-विषय-पर-लगेगा",
+    "level": 3,
+    "text": "6b. रचनात्मक लेखन का ढाँचा (हर विषय पर लगेगा)"
+   },
+   {
+    "id": "6c-रिपोर्ट-प्रतिवेदन-का-प्रारूप",
+    "level": 3,
+    "text": "6c. रिपोर्ट (प्रतिवेदन) का प्रारूप"
+   },
+   {
+    "id": "6d-फ़ीचर-का-प्रारूप-सिद्धांत-के-प्रश्नों-के-लिए-और-अभ्यास-के",
+    "level": 3,
+    "text": "6d. फ़ीचर का प्रारूप (सिद्धांत के प्रश्नों के लिए, और अभ्यास के लिए)"
+   },
+   {
+    "id": "6e-पत्र-का-प्रारूप-केवल-जानकारी-के-लिए-2026-27-कक्षा-12-बोर्",
+    "level": 3,
+    "text": "6e. पत्र का प्रारूप (केवल जानकारी के लिए; 2026-27 कक्षा 12 बोर्ड में नहीं)"
+   },
+   {
+    "id": "6f-माध्यम-लेखन-की-ज़रूरी-परिभाषाएँ-1-2-अंक",
+    "level": 3,
+    "text": "6f. माध्यम-लेखन की ज़रूरी परिभाषाएँ (1-2 अंक)"
+   },
+   {
+    "id": "6g-कविताओं-का-एक-पंक्ति-सार-mcq-और-उत्तर-की-शुरुआत-के-लिए",
+    "level": 3,
+    "text": "6g. कविताओं का एक-पंक्ति सार (MCQ और उत्तर की शुरुआत के लिए)"
+   },
+   {
+    "id": "6h-गद्य-और-वितान-के-मुख्य-पात्र-तथ्य",
+    "level": 3,
+    "text": "6h. गद्य और वितान के मुख्य पात्र / तथ्य"
+   },
+   {
+    "id": "6i-अलंकार-जो-काव्यांश-में-पूछे-जा-सकते-हैं",
+    "level": 3,
+    "text": "6i. अलंकार जो काव्यांश में पूछे जा सकते हैं"
+   },
+   {
+    "id": "7-अंक-बटोरने-के-टिप्स-और-30-दिन-की-समय-सारणी",
+    "level": 2,
+    "text": "7. अंक बटोरने के टिप्स और 30 दिन की समय-सारणी"
+   },
+   {
+    "id": "7a-उत्तर-लिखने-के-टिप्स",
+    "level": 3,
+    "text": "7a. उत्तर लिखने के टिप्स"
+   },
+   {
+    "id": "7b-30-दिन-की-समय-सारणी-रोज़-लगभग-1-5-घंटे",
+    "level": 3,
+    "text": "7b. 30 दिन की समय-सारणी (रोज़ लगभग 1.5 घंटे)"
+   },
+   {
+    "id": "8-स्रोत-जो-url-दस्तावेज़-सचमुच-खोले-गए",
+    "level": 2,
+    "text": "8. स्रोत (जो URL / दस्तावेज़ सचमुच खोले गए)"
+   }
+  ],
+  "questions": 75,
+  "stars": 46,
+  "pdf": "XII-302-hindi-core.pdf"
+ }
+]

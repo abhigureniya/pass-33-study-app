@@ -1,0 +1,1738 @@
+<p><strong>Who this is for:</strong> students who need to <strong>pass</strong>, meaning at least 33% in theory and 33% in practicals.
+<strong>How to use it:</strong> Study the topics in the order given in Section 3. Learn the starred (★) questions in Section 5 first. Then <strong>write</strong> the programs and queries on paper again and again. Reading them is not enough. In the board exam you must write code by hand.</p>
+<hr />
+<h2 id="1-exam-at-a-glance-2026-27">1. Exam at a glance (2026-27)</h2>
+
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Theory paper</td>
+<td>70 marks, 3 hours (plus 15 minutes reading time)</td>
+</tr>
+<tr>
+<td>Practical exam</td>
+<td>30 marks</td>
+</tr>
+<tr>
+<td>Total</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Number of questions</td>
+<td>37, all compulsory, with internal choice (OR) in some questions</td>
+</tr>
+<tr>
+<td>Section A</td>
+<td>Q1-21: 1 mark each, including MCQs, True/False, fill-ups, "write the output" and 2 Assertion-Reason (A-R) questions = <strong>21 marks</strong></td>
+</tr>
+<tr>
+<td>Section B</td>
+<td>Q22-28: very short answer, 2 marks each = <strong>14 marks</strong></td>
+</tr>
+<tr>
+<td>Section C</td>
+<td>Q29-31: short answer, 3 marks each = <strong>9 marks</strong> (usually text file, stack and output/function questions)</td>
+</tr>
+<tr>
+<td>Section D</td>
+<td>Q32-35: 4 marks each = <strong>16 marks</strong> (SQL queries on a table, CSV file, SQL on two tables, Python-MySQL)</td>
+</tr>
+<tr>
+<td>Section E</td>
+<td>Q36-37: 5 marks each = <strong>10 marks</strong> (binary file program, network case study)</td>
+</tr>
+<tr>
+<td>Language</td>
+<td>All programs must be written in <strong>Python</strong> only</td>
+</tr>
+<tr>
+<td>MCQ rule</td>
+<td>Write the <strong>text</strong> of the correct option, not only the letter (for example "c) Error").</td>
+</tr>
+<tr>
+<td><strong>Pass mark (theory)</strong></td>
+<td><strong>33% of 70 = 23.1, so you need 24 marks</strong></td>
+</tr>
+<tr>
+<td><strong>Pass mark (practical)</strong></td>
+<td><strong>33% of 30 = 10 marks</strong></td>
+</tr>
+<tr>
+<td>Rule</td>
+<td>In Class XII you must get 33% <strong>separately</strong> in theory and in practical (CBSE Controller of Examinations FAQ, March 2025).</td>
+</tr>
+</tbody>
+</table>
+<p><strong>The SQP note says:</strong> "There is no change in the Question Paper Design and Assessment Pattern for Academic Session 2026-27." The pattern (37 questions, 21/7/3/4/2) is the same as the 2025 and 2026 board papers. The 2023 and 2024 papers had 35 questions, but the topics were the same.</p>
+<p><strong>Practical 30 marks break-up (2026-27 curriculum):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Part</th>
+<th>Marks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lab test: one Python program (60% logic + 20% documentation + 20% code quality)</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Lab test: 4 SQL queries on one or two tables</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Report file: at least 15 Python programs + at least 5 sets of SQL queries + at least 4 Python-SQL connectivity programs</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Project (Python file handling or Python-SQL connectivity, in groups of 2-3)</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Viva voce</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<p><strong>What is NOT in the 2026-27 syllabus (skip old PYQs on these):</strong> C++, classes and objects (OOP), inheritance, sorting algorithms (bubble/selection sort), queues, infix/postfix, Boolean algebra and K-maps, 3G/4G, cyber security topics (these are now in Class XI). The 2019 paper had these. Only its Python, file, stack, SQL and network questions are useful now.</p>
+<hr />
+<h2 id="2-unit-weightage-table-2026-27-curriculum-theory-70">2. Unit weightage table (2026-27 curriculum, theory 70)</h2>
+
+<table>
+<thead>
+<tr>
+<th>Unit</th>
+<th>Name</th>
+<th>Marks</th>
+<th>What it covers</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Computational Thinking and Programming - 2</td>
+<td><strong>40</strong></td>
+<td>Python revision (strings, lists, tuples, dictionaries), functions and scope, exception handling, text / binary / CSV files, stack using list</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Computer Networks</td>
+<td><strong>10</strong></td>
+<td>Evolution (ARPANET, NSFNET, Internet), bandwidth, IP address, switching, transmission media, devices, topologies, PAN/LAN/MAN/WAN, protocols, web services</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Database Management</td>
+<td><strong>20</strong></td>
+<td>Relational model terms, keys, SQL (DDL, DML, SELECT, aggregates, GROUP BY, HAVING, joins), Python-MySQL connectivity</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Total</strong></td>
+<td><strong>70</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Where Unit 1 marks come from (based on the 2026-27 SQP):</strong> about 12 one-mark questions, 5 two-mark questions, all three 3-mark questions, the CSV question (4) and the binary file question (5).
+<strong>Unit 2</strong> is almost fixed: about 3-4 one-mark questions, one 2-mark question and the 5-mark case study.
+<strong>Unit 3</strong> is also fixed: about 5-6 one-mark questions, one 2-mark question and three 4-mark questions (Q32, Q34, Q35).</p>
+<hr />
+<h2 id="3-the-33-mark-plan-target-about-43-30-marks-in-theory">3. The 33-mark plan (target about 43% = 30 marks in theory)</h2>
+
+<p><strong>Main idea:</strong> Computer Science papers repeat the <strong>same types</strong> of questions every year. Only the names and data change. If you learn about 12 "templates" (patterns), you can pass. There is no negative marking, so attempt <strong>every</strong> question. Even half-correct code gets step marks.</p>
+<h3 id="3a-study-order-easiest-and-highest-return-first">3a. Study order (easiest and highest return first)</h3>
+
+<ol>
+<li><strong>Networks (10 marks):</strong> pure theory with short answers. The 5-mark case study has the <strong>same 5 answers almost every year</strong> (server in the block with most computers, star layout, switch in every block, repeater if distance &gt; 100 m, router/gateway at the server, VoIP/TELNET/FTP, optical fibre or satellite for long distance).</li>
+<li><strong>SQL queries (about 16 marks):</strong> SELECT ... WHERE ... ORDER BY ... GROUP BY. These are simple English-like sentences. Learn 15 query patterns (Section 6c).</li>
+<li><strong>SQL theory 1-markers:</strong> keys, degree, cardinality, DDL vs DML, COUNT(*) vs COUNT(column).</li>
+<li><strong>Python-MySQL connectivity (4 marks):</strong> one fixed 8-line template. Learn it by heart (Section 6c).</li>
+<li><strong>Stack program (3 marks):</strong> push with append(), pop with pop(), "Stack Empty"/"Underflow" message. The same every year.</li>
+<li><strong>Text file function (3 marks):</strong> open, read, split, loop, count, print, close. One template.</li>
+<li><strong>Python output and built-in method questions:</strong> practise 20 outputs from Section 5.</li>
+<li><strong>CSV (4) and binary file (5):</strong> learn the two templates. Even writing the open(), writer()/reader() or pickle.dump()/pickle.load() lines correctly gives 1-2 marks.</li>
+</ol>
+<h3 id="3b-target-marks-table-theory">3b. Target-marks table (theory)</h3>
+
+<table>
+<thead>
+<tr>
+<th>Topic</th>
+<th>Marks in paper (approx.)</th>
+<th>Target for a weak student</th>
+<th>What to learn</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Networks (MCQs + 2-mark + case study)</td>
+<td>10</td>
+<td><strong>6</strong></td>
+<td>Q62-Q72 in Section 5, case study key in 6d</td>
+</tr>
+<tr>
+<td>SQL queries on tables (Q32, Q34, Section A)</td>
+<td>13</td>
+<td><strong>6</strong></td>
+<td>Q82-Q87, query patterns 6c</td>
+</tr>
+<tr>
+<td>SQL theory (keys, degree, DDL/DML, Q27)</td>
+<td>5</td>
+<td><strong>3</strong></td>
+<td>Q73-Q81</td>
+</tr>
+<tr>
+<td>Python-MySQL connectivity (Q35)</td>
+<td>4</td>
+<td><strong>2</strong></td>
+<td>Q88-Q91, template 6c</td>
+</tr>
+<tr>
+<td>Stack (Q30)</td>
+<td>3</td>
+<td><strong>2</strong></td>
+<td>Q58-Q61</td>
+</tr>
+<tr>
+<td>Text file (Q29)</td>
+<td>3</td>
+<td><strong>2</strong></td>
+<td>Q47-Q52</td>
+</tr>
+<tr>
+<td>Python output / methods / errors / functions (Section A and B)</td>
+<td>about 20</td>
+<td><strong>7</strong></td>
+<td>Q1-Q46</td>
+</tr>
+<tr>
+<td>CSV file (Q33)</td>
+<td>4</td>
+<td><strong>1</strong></td>
+<td>Q56-Q57</td>
+</tr>
+<tr>
+<td>Binary file (Q36)</td>
+<td>5</td>
+<td><strong>1</strong></td>
+<td>Q53-Q55</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>about 67</strong></td>
+<td><strong>30 (43%)</strong></td>
+<td>Pass needs 24, so this gives a <strong>6-mark buffer</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Section A:</strong> Of the 21 one-mark questions, about 9 are SQL and networks (easy theory). Aim for <strong>12 correct out of 21</strong>.</p>
+<h3 id="3c-how-practicals-save-you">3c. How practicals save you</h3>
+
+<ul>
+<li>Practical is a separate pass (10/30 needed), but most students get 24-28/30. <strong>Do not lose these marks.</strong></li>
+<li><strong>Report file (7) + project (8) + viva (3) = 18 marks</strong> are decided before or on the exam day by your own work. Finish the file and the project in school, get them signed, and know what each program does.</li>
+<li><strong>SQL lab test (4):</strong> 4 queries on one or two tables. Practise CREATE, INSERT, SELECT with WHERE, ORDER BY, GROUP BY, UPDATE, DELETE on the computer.</li>
+<li><strong>Python lab test (8):</strong> usually one program from the practical list (text file count, binary search/update, CSV user-id/password, stack, random dice). 60% of marks are logic, 20% comments, 20% neat code. Always write comments (#) and use clear variable names.</li>
+<li><strong>Viva favourites:</strong> difference between text and binary file; what pickle does; what a primary key is; what commit() does; LIFO; what a switch does; full forms (HTTP, SMTP, VoIP, LAN).</li>
+</ul>
+<hr />
+<h2 id="4-pyq-trend-analysis-papers-actually-read">4. PYQ trend analysis (papers actually read)</h2>
+
+<p><strong>Papers read:</strong> 2019 (Delhi, Code 91, Series BVM; old C++/Python syllabus, only the Python, file, stack, SQL and network parts compared), 2023 (Code 91, Series NHHEFG), 2024 (Code 91, Set 4), 2025 (Code 91, Set 4), 2026 (Code 91, Set 4), plus the <strong>2026-27 SQP</strong>. That is <strong>5 board years + SQP</strong>. The 2015-2018, 2020-2022 papers were <strong>not</strong> read. The 2023-2025 papers were scanned copies read through OCR, so some table data in those papers could not be read; questions that needed that data are left out.</p>
+<table>
+<thead>
+<tr>
+<th>Topic / question type</th>
+<th>Years seen (only papers read)</th>
+<th>Times</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Possible outputs with random module (randint / randrange)</td>
+<td>2019, 2023, 2024, 2025, 2026, SQP</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Rewrite code after removing errors (underline corrections)</td>
+<td>2019, 2023, 2024, 2025, 2026, SQP</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Text file function (count words / digits / lines with a word)</td>
+<td>2019, 2023, 2024, 2025, 2026, SQP</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Binary file with pickle (write / search / update)</td>
+<td>2019, 2023, 2024, 2025, 2026, SQP</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Stack using list: push and pop functions</td>
+<td>2019, 2023, 2024, 2025, 2026, SQP</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Network case study (server, layout, devices, protocol)</td>
+<td>2019, 2023, 2024, 2025, 2026, SQP</td>
+<td>6</td>
+</tr>
+<tr>
+<td>SQL queries / output on one table (WHERE, ORDER BY, GROUP BY, LIKE, BETWEEN)</td>
+<td>2019, 2023, 2024, 2025, 2026, SQP</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Output of string slicing / string methods (split, partition, index, capitalize)</td>
+<td>2019, 2023, 2024, 2025, 2026, SQP</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Function output: local/global scope, default parameters, return</td>
+<td>2019, 2023, 2024, 2025, 2026, SQP</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Operator precedence: value of an expression (**, /, //, %)</td>
+<td>2023, 2024, 2025, 2026, SQP</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Dictionary: methods / loop over keys / statements (get, pop, update, setdefault)</td>
+<td>2023, 2024, 2025, 2026, SQP</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Write one statement using built-in methods only</td>
+<td>2024, 2025, 2026, SQP</td>
+<td>4</td>
+</tr>
+<tr>
+<td>CSV file: writer/writerow, reader, count/search/copy</td>
+<td>2023, 2024, 2025, 2026, SQP</td>
+<td>5</td>
+</tr>
+<tr>
+<td>File modes, seek()/tell(), with clause</td>
+<td>2019, 2023, 2024, 2026, SQP</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Exception handling (try-except-finally output, True/False)</td>
+<td>2024, 2025, 2026, SQP</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Python-MySQL connectivity program (insert/update/delete/fetch)</td>
+<td>2023, 2024, 2025, 2026, SQP</td>
+<td>5</td>
+</tr>
+<tr>
+<td>SQL on two tables: equi-join / natural join / Cartesian product</td>
+<td>2019, 2023, 2024, 2025, 2026, SQP</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Degree, cardinality, Cartesian product size</td>
+<td>2023, 2024, 2025, 2026, SQP</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Keys: primary, candidate, alternate, foreign</td>
+<td>2023, 2025, 2026, SQP</td>
+<td>4</td>
+</tr>
+<tr>
+<td>DDL vs DML; CREATE / ALTER (add, drop column, primary key) / DROP</td>
+<td>2023, 2024, 2025, 2026, SQP</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Aggregates, COUNT(*) vs COUNT(col), NULL / IS NULL</td>
+<td>2019, 2024, 2025, 2026, SQP</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Full forms (XML, PPP, HTML, TCP, ARPANET, URL, RJ45)</td>
+<td>2019, 2023, 2024, 2025, 2026</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Protocols (HTTP, SMTP, FTP, VoIP, PPP, TELNET)</td>
+<td>2019, 2023, 2024, 2025, 2026, SQP</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Network devices (repeater, switch, gateway, router, NIC/MAC)</td>
+<td>2019, 2023, 2024, 2025, 2026, SQP</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Topologies (bus, star, tree) and switching (circuit vs packet)</td>
+<td>2024, 2026, SQP</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Transmission media (radio waves, microwaves, wired vs wireless)</td>
+<td>2023, 2026, SQP</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<p><strong>What this means for you:</strong> every row with 5-6 years is almost certain to come again. These rows alone carry more than 40 of the 70 marks.</p>
+<h2 id="5-must-do-question-bank-91-questions">5. Must-do question bank (91 questions)</h2>
+
+<p>★ = asked many times, so do this first. Years in brackets are board papers (Code 91) where the same question appeared. "SQP" = 2026-27 Sample Paper. "Practice" = a question written in the board style for practice (not from a paper). <strong>Every Python output below was checked by running the code in Python 3.</strong> Every SQL output on the practice table was checked by running the queries.</p>
+<h3 id="unit-1a-python-revision-strings-lists-tuples-dictionaries-op">Unit 1A: Python revision (strings, lists, tuples, dictionaries, operators)</h3>
+
+<div class="qcard star" id="xii-cs-q1" data-qid="xii-cs-q1"><div class="qtext"><p><strong>Q1 ★ (1 mark, SQP)</strong> Write the output:</p>
+<pre><code class="language-python">L1=[10,20,25,30]
+L1.insert(1,15)
+print(L1)
+</code></pre></div><div class="qans"><p><strong>Ans:</strong> <code>[10, 15, 20, 25, 30]</code>. insert(index, value) puts 15 at index 1 and shifts the rest right.</p></div></div>
+<div class="qcard star" id="xii-cs-q2" data-qid="xii-cs-q2"><div class="qtext"><p><strong>Q2 ★ (MCQ, SQP)</strong> Output of:</p>
+<pre><code class="language-python">Msg = &quot;programming is amazing&quot;
+print(Msg.split(&quot;m&quot;))
+</code></pre>
+<p>a) ['progra', '', 'ing is a', 'azing'] b) ['progra', 'ming is a', 'azing'] c) ('progra', '', 'ing is amazing') d) ['program', 'ing is a', 'zing']</p></div><div class="qans"><p><strong>Ans: a) ['progra', '', 'ing is a', 'azing'].</strong> split() always returns a <strong>list</strong>, and the "m" is removed. Two m's side by side ("mm") give an empty string '' between them.</p></div></div>
+<div class="qcard star" id="xii-cs-q3" data-qid="xii-cs-q3"><div class="qtext"><p><strong>Q3 ★ (MCQ, 2026)</strong> Output of <code>s = "the Truth"; print(s.capitalize())</code>: (A) The truth (B) THE TRUTH (C) The Truth (D) the Truth</p></div><div class="qans"><p><strong>Ans: (A) The truth.</strong> capitalize() makes the first letter capital and <strong>all other letters small</strong>. (title() would give "The Truth".)</p></div></div>
+<div class="qcard star" id="xii-cs-q4" data-qid="xii-cs-q4"><div class="qtext"><p><strong>Q4 ★ (MCQ, 2026; same idea 2023)</strong> Output of:</p>
+<pre><code class="language-python">s='War and Peace by Leo Tolstoy'
+print(s.partition(&quot;by&quot;))
+</code></pre></div><div class="qans"><p><strong>Ans: ('War and Peace ', 'by', ' Leo Tolstoy').</strong> partition() always returns a <strong>tuple of 3 parts</strong>: before, the separator itself, after. Note the spaces stay.
+(2023: <code>"Amrit Mahotsav @ 75".partition(" ")</code> gives <code>('Amrit', ' ', 'Mahotsav @ 75')</code>. It splits only at the <strong>first</strong> space.)</p></div></div>
+<div class="qcard star" id="xii-cs-q5" data-qid="xii-cs-q5"><div class="qtext"><p><strong>Q5 ★ (1 mark, 2026, SQP, 2024)</strong> Write the outputs:
+(a) <code>print("PythonProgram"[-1:2:-2])</code> (2026)
+(b) <code>text = "Drone Expo"; print(text[-2: :-4])</code> (SQP)
+(c) <code>myStr="MISSISSIPPI"; print(myStr[:4]+"#"+myStr[-5:])</code> (2024)</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<ul>
+<li>(a) <code>mroPo</code>. Start at the last letter 'm' and move left in steps of 2, stopping before index 2: m, r, o, P, o.</li>
+<li>(b) <code>peD</code>. Start at index -2 ('p'), step -4: 'p' (index 8), 'e' (index 4), 'D' (index 0).</li>
+<li>(c) <code>MISS#SIPPI</code>. [:4] = first 4 letters; [-5:] = last 5 letters.
+<strong>Rule:</strong> s[start:stop:step]. The stop index is <strong>never included</strong>. A negative step moves right to left.</li>
+</ul></div></div>
+<div class="qcard star" id="xii-cs-q6" data-qid="xii-cs-q6"><div class="qtext"><p><strong>Q6 ★ (1 mark, SQP, 2025, 2024, 2023)</strong> Find the value of each:
+(a) <code>print(25+100**1**3/5)</code> (SQP) (b) <code>print(14%3**2*4)</code> (2025) (c) <code>print(16*5/4*2/5-8)</code> (2024) (d) <code>print(4+3*5/3-5%2)</code> (2023)</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<ul>
+<li>(a) <strong>45.0</strong>. ** is done first and right to left: 1<strong>3 = 1, 100</strong>1 = 100, 100/5 = 20.0, 25 + 20.0 = 45.0</li>
+<li>(b) <strong>20</strong>. 3**2 = 9; then % and * from left to right: 14 % 9 = 5, 5 * 4 = 20</li>
+<li>(c) <strong>0.0</strong>. Left to right: 80/4 = 20.0, ×2 = 40.0, /5 = 8.0, -8 = 0.0</li>
+<li>(d) <strong>8.0</strong>. 3*5 = 15, 15/3 = 5.0, 5%2 = 1, 4 + 5.0 - 1 = 8.0
+<strong>Rule:</strong> order is () → ** (right to left) → * / // % (left to right) → + -. The / operator always gives a float (a decimal like 45.0).</li>
+</ul></div></div>
+<div class="qcard" id="xii-cs-q7" data-qid="xii-cs-q7"><div class="qtext"><p><strong>Q7 (MCQ, SQP)</strong> What is the data type of 5 // 2? a) float b) int c) string d) None</p></div><div class="qans"><p><strong>Ans: b) int.</strong> 5 // 2 = 2 (floor division of two integers gives an integer).</p></div></div>
+<div class="qcard star" id="xii-cs-q8" data-qid="xii-cs-q8"><div class="qtext"><p><strong>Q8 ★ (MCQ, SQP; A-R 2026)</strong> What happens: <code>t = (1, 2, 3); l = [4, 5]; print(t + l)</code>?</p></div><div class="qans"><p><strong>Ans: c) Error, because a tuple cannot be concatenated with a list.</strong> (TypeError.) In 2026 the A-R was: A: [1,2,3]+'123' is an invalid expression. R: A list cannot be concatenated with a string. <strong>Ans: (A)</strong> both true and R explains A.</p></div></div>
+<div class="qcard" id="xii-cs-q9" data-qid="xii-cs-q9"><div class="qtext"><p><strong>Q9 (MCQ, 2026)</strong> Output of:</p>
+<pre><code class="language-python">t = tuple('tuple')
+t2 = t[2],
+t += t2
+print(t)
+</code></pre></div><div class="qans"><p><strong>Ans: ('t', 'u', 'p', 'l', 'e', 'p').</strong> tuple('tuple') splits the word into letters. <code>t[2],</code> (with a comma) is a one-element tuple ('p',), which is joined at the end.</p></div></div>
+<div class="qcard" id="xii-cs-q10" data-qid="xii-cs-q10"><div class="qtext"><p><strong>Q10 (MCQ, SQP)</strong> Which of these is mutable? a) Tuple b) String c) Integer d) List</p></div><div class="qans"><p><strong>Ans: d) List.</strong> Mutable = can be changed in place. Lists and dictionaries are mutable; strings, tuples, int, float are immutable.</p></div></div>
+<div class="qcard" id="xii-cs-q11" data-qid="xii-cs-q11"><div class="qtext"><p><strong>Q11 (MCQ, 2023)</strong> Tup = (10, 20, 30, 50). Which statement gives an error? (a) print(Tup[0]) (b) Tup.insert(2,3) (c) print(Tup[1:2]) (d) print(len(Tup))</p></div><div class="qans"><p><strong>Ans: (b) Tup.insert(2,3).</strong> A tuple is immutable, so it has no insert() method.</p></div></div>
+<div class="qcard" id="xii-cs-q12" data-qid="xii-cs-q12"><div class="qtext"><p><strong>Q12 (MCQ, 2026)</strong> L is a list with 6 elements. Which statement raises an exception? (A) L.pop(1) (B) L.pop(6) (C) L.insert(1,6) (D) L.insert(6,1)</p></div><div class="qans"><p><strong>Ans: (B) L.pop(6).</strong> Valid indexes are 0 to 5, so pop(6) gives IndexError. insert() never gives an error for a big index; it just adds at the end.</p></div></div>
+<div class="qcard star" id="xii-cs-q13" data-qid="xii-cs-q13"><div class="qtext"><p><strong>Q13 ★ (MCQ, 2025; same idea SQP)</strong> Output of:</p>
+<pre><code class="language-python">D={'S01':95, 'S02':96}
+for I in D:
+    print(I,end='#')
+</code></pre></div><div class="qans"><p><strong>Ans: (A) S01#S02#.</strong> A for loop over a dictionary gives the <strong>keys</strong> only.
+SQP: <code>Dl={"Pen":12, "Pencil":6, "Scale":5, "InkPen":20}; print(12 in Dl)</code> gives <strong>False</strong>, because <code>in</code> checks keys, not values.</p></div></div>
+<div class="qcard" id="xii-cs-q14" data-qid="xii-cs-q14"><div class="qtext"><p><strong>Q14 (MCQ, 2026)</strong> Which is true about dictionaries? (A) A dictionary is a sequence (B) A dictionary cannot have two elements with the same key (C) ... cannot have two elements with the same value (D) The key and value of an element cannot be the same.</p></div><div class="qans"><p><strong>Ans: (B).</strong> Keys must be unique; values can repeat.</p></div></div>
+<div class="qcard" id="xii-cs-q15" data-qid="xii-cs-q15"><div class="qtext"><p><strong>Q15 (MCQ, 2025; same idea 2023)</strong> Which is a correct identifier? (A) global (B) Break (C) def (D) with</p></div><div class="qans"><p><strong>Ans: (B) Break.</strong> Python is case-sensitive, so Break is not the keyword break. global, def and with are keywords. (2023: the valid keyword out of false, return, non_local, none is <strong>return</strong>.)</p></div></div>
+<div class="qcard" id="xii-cs-q16" data-qid="xii-cs-q16"><div class="qtext"><p><strong>Q16 (MCQ, 2025)</strong> Which operator gives True if the variables on both sides point to the same memory location? (A) is (B) is not (C) and (D) or</p></div><div class="qans"><p><strong>Ans: (A) is.</strong> <code>is</code> and <code>is not</code> are identity operators.</p></div></div>
+<div class="qcard" id="xii-cs-q17" data-qid="xii-cs-q17"><div class="qtext"><p><strong>Q17 (MCQ, 2026; same idea 2023)</strong> Which expression is True? (A) 2&gt;3 and 2&lt;3 (B) 3&gt;1 and 2 (C) 3&gt;1 and 3&gt;2 (D) 3&gt;1 and 3&lt;2</p></div><div class="qans"><p><strong>Ans: (C) 3&gt;1 and 3&gt;2.</strong> (B) gives 2, not True, because <code>and</code> returns the last value it checks. (2023: <code>5&lt;10 and 12&gt;7 or not 7&gt;4</code> gives <strong>True</strong>.)</p></div></div>
+<div class="qcard" id="xii-cs-q18" data-qid="xii-cs-q18"><div class="qtext"><p><strong>Q18 (True/False, 2026; same idea 2025)</strong> "In Python, the data type of 74 is the same as the data type of 74.0." / (2025) "A Python list must always contain all its elements of the same data type."</p></div><div class="qans"><p><strong>Ans: Both False.</strong> 74 is int and 74.0 is float. A list can hold mixed types, like [1, "a", 2.5].</p></div></div>
+<div class="qcard star" id="xii-cs-q19" data-qid="xii-cs-q19"><div class="qtext"><p><strong>Q19 ★ (2 marks, SQP)</strong> Using built-in methods only: (I) check whether the string username starts with "admin". (II) data = [2, 7, 9, 9, 2]: count how many times the largest element occurs.</p></div><div class="qans"><p><strong>Ans:</strong> (I) <code>username.startswith("admin")</code> (II) <code>data.count(max(data))</code> (gives 2)</p></div></div>
+<div class="qcard star" id="xii-cs-q20" data-qid="xii-cs-q20"><div class="qtext"><p><strong>Q20 ★ (2 marks, 2026)</strong> Using built-in functions/methods only: (i) make a new list L1 with the elements of L in ascending order, without changing L. (ii) check whether the character ch is an alphabet or a number.</p></div><div class="qans"><p><strong>Ans:</strong> (i) <code>L1 = sorted(L)</code> (sorted() returns a new list; L.sort() would change L itself). (ii) <code>ch.isalnum()</code></p></div></div>
+<div class="qcard star" id="xii-cs-q21" data-qid="xii-cs-q21"><div class="qtext"><p><strong>Q21 ★ (2 marks, 2025)</strong> D={"Suman":40, "Raj":55, "Raman":60} and D1={"Aditi":30, "Amit":90, "Raj":20}. Write statements to: (i)(a) display the value of key "Raj" in D (b) display the length of D1 (ii)(a) add all key-value pairs of D to D1 (b) delete the item with key "Amit" from D1.</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<ul>
+<li>(i)(a) <code>print(D["Raj"])</code> or <code>print(D.get("Raj"))</code> (gives 55) (b) <code>print(len(D1))</code> (gives 3)</li>
+<li>(ii)(a) <code>D1.update(D)</code> (b) <code>D1.pop("Amit")</code> or <code>del D1["Amit"]</code></li>
+</ul></div></div>
+<div class="qcard" id="xii-cs-q22" data-qid="xii-cs-q22"><div class="qtext"><p><strong>Q22 (2 marks, 2026; same idea 2024)</strong> D1 is a dictionary. (i)(a) check if key 'RNo' is present (b) check if any key has the value 12 (ii)(a) one statement using a built-in function: add 'RNo':12 if 'RNo' is not present; if present, return its value (b) delete all elements of D1.</p></div><div class="qans"><p><strong>Ans:</strong> (i)(a) <code>'RNo' in D1</code> (b) <code>12 in D1.values()</code> (ii)(a) <code>D1.setdefault('RNo', 12)</code> (b) <code>D1.clear()</code>
+(2024: remove key "NISHA" from Students: <code>Students.pop("NISHA")</code>; count "is" in message: <code>message.count("is")</code>, which gives 3 for "This is his book".)</p></div></div>
+<div class="qcard star" id="xii-cs-q23" data-qid="xii-cs-q23"><div class="qtext"><p><strong>Q23 ★ (2 marks, SQP)</strong> Predict the output:</p>
+<pre><code class="language-python">code = &quot;gLaD5&quot;
+result = []
+i=0
+while i &lt; len(code):
+    if code[i].isupper():
+        result.append(code[i].lower())
+    elif code[i].isdigit():
+        result.append(int(code[i]) * 2)
+    else:
+        result.append(&quot;#&quot;)
+    i += 1
+print(result)
+</code></pre></div><div class="qans"><p><strong>Ans:</strong> <code>['#', 'l', '#', 'd', 10]</code>
+Working: g (small) → '#'; L (capital) → 'l'; a → '#'; D → 'd'; 5 (digit) → 5×2 = 10 (an integer, so no quotes).</p></div></div>
+<div class="qcard star" id="xii-cs-q24" data-qid="xii-cs-q24"><div class="qtext"><p><strong>Q24 ★ (2 marks, 2024)</strong> Output:</p>
+<pre><code class="language-python">LS=[&quot;HIMALAYA&quot;, &quot;NILGIRI&quot;, &quot;ALASKA&quot;, &quot;ALPS&quot;]
+D={}
+for S in LS:
+    if len(S)%4 == 0:
+        D[S] = len(S)
+for K in D:
+    print(K,D[K], sep = &quot;#&quot;)
+</code></pre></div><div class="qans"><p><strong>Ans:</strong></p>
+<pre><code>HIMALAYA#8
+ALPS#4
+</code></pre>
+<p>Lengths are 8, 7, 6, 4. Only 8 and 4 are divisible by 4.</p></div></div>
+<div class="qcard star" id="xii-cs-q25" data-qid="xii-cs-q25"><div class="qtext"><p><strong>Q25 ★ (3 marks, 2024)</strong> Output:</p>
+<pre><code class="language-python">S=&quot;Racecar Car Radar&quot;
+L=S.split()
+for W in L:
+    x=W.upper()
+    if x==x[::-1]:
+        for I in x:
+            print(I,end=&quot;*&quot;)
+    else:
+        for I in W:
+            print(I,end=&quot;#&quot;)
+    print()
+</code></pre></div><div class="qans"><p><strong>Ans:</strong></p>
+<pre><code>R*A*C*E*C*A*R*
+C#a#r#
+R*A*D*A*R*
+</code></pre>
+<p>RACECAR and RADAR are palindromes (same when reversed), so they print in capitals with *. "Car" is not, so it prints as it is with #.</p></div></div>
+<div class="qcard" id="xii-cs-q26" data-qid="xii-cs-q26"><div class="qtext"><p><strong>Q26 (3 marks, 2025)</strong> Output:</p>
+<pre><code class="language-python">def ExamOn(mystr):
+    newstr = &quot;&quot;
+    count = 0
+    for i in mystr:
+        if count%2 != 0:
+            newstr = newstr + str(count-1)
+        else:
+            newstr = newstr + i.lower()
+        count += 1
+    newstr = newstr + mystr[:2]
+    print(&quot;The new string is:&quot;, newstr)
+ExamOn(&quot;GenX&quot;)
+</code></pre></div><div class="qans"><p><strong>Ans:</strong> <code>The new string is: g0n2Ge</code>
+Working: count 0 → 'g'; count 1 (odd) → str(0) = '0'; count 2 → 'n'; count 3 → '2'; then add mystr[:2] = 'Ge'.</p></div></div>
+<div class="qcard" id="xii-cs-q27" data-qid="xii-cs-q27"><div class="qtext"><p><strong>Q27 (3 marks, 2026)</strong> Output:</p>
+<pre><code class="language-python">def Exam2026(given):
+    new=[]
+    for ch in given[1:-1]:
+        if ch.isupper():
+            new.reverse()
+        elif ch not in new:
+            new.append(ch)
+        elif ch in new:
+            new.pop()
+    print(new)
+Exam2026(&quot;Gold-24Medals&quot;)
+</code></pre></div><div class="qans"><p><strong>Ans:</strong> <code>['4', '2', '-', 'd', 'l', 'o']</code>
+Working: given[1:-1] = "old-24Medal". Add o, l, d, -, 2, 4. 'M' is capital → reverse the list → ['4','2','-','d','l','o']. 'e' is new → add it. 'd' is already in the list → pop() removes the <strong>last</strong> item ('e'). 'a' → add. 'l' is in the list → pop() removes 'a'. (The printed paper uses a dash between "Gold" and "24"; the answer has that same character.)</p></div></div>
+<div class="qcard" id="xii-cs-q28" data-qid="xii-cs-q28"><div class="qtext"><p><strong>Q28 (3 marks, 2026)</strong> Output:</p>
+<pre><code class="language-python">def Exam2026(given):
+    new = 0
+    while given:
+        if new % 2:
+            new += given % 10
+        else:
+            new += given % 5
+        print(new, end='-')
+        given //= 10
+Exam2026(123456)
+</code></pre></div><div class="qans"><p><strong>Ans:</strong> <code>1-6-10-13-15-16-</code>
+Working (given, new): 123456: new=0 is even → +123456%5=1 → 1. 12345: new=1 odd → +5 → 6. 1234: 6 even → +1234%5=4 → 10. 123: even → +3 → 13. 12: odd → +2 → 15. 1: odd → +1 → 16. Then given becomes 0 and the loop stops.</p></div></div>
+<h3 id="unit-1b-error-finding-2-marks-asked-every-year">Unit 1B: Error finding (2 marks, asked every year)</h3>
+
+<div class="qcard star" id="xii-cs-q29" data-qid="xii-cs-q29"><div class="qtext"><p><strong>Q29 ★ (2 marks, SQP)</strong> Remove the errors and underline the corrections (the code should print the list in reverse):</p>
+<pre><code class="language-python">words=[&quot;Class Test&quot;,&quot;Term Exams&quot;,&quot;Pre-board Exam&quot;,&quot;Board Exam’]
+L=len(words)
+for i in range(L, -1, -1)
+    Print (words[i] , end = &quot; &quot;)
+</code></pre></div><div class="qans"><p><strong>Ans:</strong></p>
+<pre><code class="language-python">words=[&quot;Class Test&quot;,&quot;Term Exams&quot;,&quot;Pre-board Exam&quot;,&quot;Board Exam&quot;]   # quote fixed
+L=len(words)
+for i in range(L-1, -1, -1):          # L-1 (last index) and colon added
+    print(words[i], end = &quot; &quot;)         # print in small letters
+</code></pre>
+<p>4 corrections × ½ mark. Output: Board Exam Pre-board Exam Term Exams Class Test</p></div></div>
+<div class="qcard star" id="xii-cs-q30" data-qid="xii-cs-q30"><div class="qtext"><p><strong>Q30 ★ (2 marks, 2026)</strong> The function should return the number of vowels in s. Correct it:</p>
+<pre><code class="language-python">def CountVowels(s):
+    for ch in range(s):
+        if 'aeiouAEIOU' in ch:
+    return(ch)
+</code></pre></div><div class="qans"><p><strong>Ans:</strong></p>
+<pre><code class="language-python">def CountVowels(s):
+    count = 0                      # counter added
+    for ch in s:                   # loop over the string, not range(s)
+        if ch in 'aeiouAEIOU':     # check ch in the vowel string
+            count += 1             # count the vowel
+    return count                   # return the count, at function level
+</code></pre></div></div>
+<div class="qcard star" id="xii-cs-q31" data-qid="xii-cs-q31"><div class="qtext"><p><strong>Q31 ★ (2 marks, 2025)</strong> The function should return the sum of integers from 1 to N. Correct it:</p>
+<pre><code class="language-python">def Sum(N)
+    for I in range(N):
+        S=S+I
+    return S
+print (Sum(10)
+</code></pre></div><div class="qans"><p><strong>Ans:</strong></p>
+<pre><code class="language-python">def Sum(N):                        # colon added
+    S = 0                          # S must start at 0
+    for I in range(1, N+1):        # 1 to N (range(N) stops at N-1)
+        S = S + I
+    return S
+print(Sum(10))                     # closing bracket added
+</code></pre>
+<p>Output: 55</p></div></div>
+<div class="qcard" id="xii-cs-q32" data-qid="xii-cs-q32"><div class="qtext"><p><strong>Q32 (2 marks, 2024; same type 2023)</strong> The code takes five numbers and prints even or odd. Correct it:</p>
+<pre><code class="language-python">def EvenOdd()
+    for i in range(5):
+        num=int(input(&quot;Enter a number&quot;)
+        if num/2==0:
+            print(&quot;Even&quot;)
+        else:
+        print(&quot;Odd&quot;)
+EvenOdd()
+</code></pre></div><div class="qans"><p><strong>Ans:</strong></p>
+<pre><code class="language-python">def EvenOdd():                                  # colon
+    for i in range(5):
+        num=int(input(&quot;Enter a number&quot;))        # missing bracket
+        if num%2==0:                            # % (remainder), not /
+            print(&quot;Even&quot;)
+        else:
+            print(&quot;Odd&quot;)                        # indented under else
+EvenOdd()
+</code></pre></div></div>
+<h3 id="unit-1c-functions-scope-random-module-exceptions">Unit 1C: Functions, scope, random module, exceptions</h3>
+
+<div class="qcard star" id="xii-cs-q33" data-qid="xii-cs-q33"><div class="qtext"><p><strong>Q33 ★ (MCQ, SQP)</strong> Output?</p>
+<pre><code class="language-python">y=8
+def update():
+    y=y+2
+    print(y)
+update()
+</code></pre>
+<p>a) 10 b) 8 c) Error d) None</p></div><div class="qans"><p><strong>Ans: c) Error.</strong> y is assigned inside the function, so Python treats y as a <strong>local</strong> variable. It is used (y+2) before it has a value, so an error (UnboundLocalError) occurs. Writing <code>global y</code> as the first line inside the function would print 10.</p></div></div>
+<div class="qcard star" id="xii-cs-q34" data-qid="xii-cs-q34"><div class="qtext"><p><strong>Q34 ★ (MCQ, 2025; same idea 2024)</strong> Output?</p>
+<pre><code class="language-python">def Change(N):
+    N=N+10
+    print(N,end='$$')
+N=15
+Change(N)
+print(N)
+</code></pre></div><div class="qans"><p><strong>Ans: (A) 25$$15.</strong> The N inside the function is a separate local copy. Changing it does not change the global N.
+(2024: <code>a=20; def convert(a): b=20; a=a+b</code> then <code>convert(10); print(a)</code> prints <strong>20</strong> for the same reason.)</p></div></div>
+<div class="qcard" id="xii-cs-q35" data-qid="xii-cs-q35"><div class="qtext"><p><strong>Q35 (MCQ, 2026)</strong> Output?</p>
+<pre><code class="language-python">def f1(a,b=1):
+    print(a+b,end='-')
+c=f1(1,2)
+print(c,sep='*')
+</code></pre></div><div class="qans"><p><strong>Ans: (C) 3-None.</strong> f1 prints 1+2 = 3. It has no return statement, so it returns <strong>None</strong>, and c = None. sep has no effect when only one value is printed.</p></div></div>
+<div class="qcard star" id="xii-cs-q36" data-qid="xii-cs-q36"><div class="qtext"><p><strong>Q36 ★ (2 marks, 2024)</strong> Output:</p>
+<pre><code class="language-python">def callon(b=20,a=10):
+    b=b+a
+    a=b-a
+    print(b,&quot;#&quot;,a)
+    return b
+x=100
+y=200
+x=callon(x,y)
+print(x,&quot;@&quot;,y)
+y=callon(y)
+print(x,&quot;@&quot;,y)
+</code></pre></div><div class="qans"><p><strong>Ans:</strong></p>
+<pre><code>300 # 100
+300 @ 200
+210 # 200
+300 @ 210
+</code></pre>
+<p>First call: b=100, a=200 → b=300, a=100; returns 300 so x=300. Second call: only b=200 is given, a uses its default 10 → b=210, a=200; returns 210 so y=210.</p></div></div>
+<div class="qcard" id="xii-cs-q37" data-qid="xii-cs-q37"><div class="qtext"><p><strong>Q37 (2 marks, 2023)</strong> Output:</p>
+<pre><code class="language-python">a=30
+def call(x):
+    global a
+    if a%2==0:
+        x+=a
+    else:
+        x-=a
+    return x
+x=20
+print(call(35),end=&quot;#&quot;)
+print(call(40),end=&quot;@&quot;)
+</code></pre></div><div class="qans"><p><strong>Ans:</strong> <code>65#70@</code>. a = 30 is even, so x + a each time: 35+30 = 65 and 40+30 = 70.</p></div></div>
+<div class="qcard star" id="xii-cs-q38" data-qid="xii-cs-q38"><div class="qtext"><p><strong>Q38 ★ (2 marks, SQP, 2026, 2025, 2024)</strong> Theory: (a) Define global and local variables with an example (SQP). (b) Difference between default and positional parameters, with a function header using both (2026). (c) What does the return statement do? (2025)</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<ul>
+<li>(a) <strong>Global variable:</strong> made outside all functions; can be used anywhere in the program. <strong>Local variable:</strong> made inside a function; can be used only inside that function.</li>
+</ul>
+<pre><code class="language-python">x = 10          # global
+def demo():
+    y = 5       # local
+    print(x, y)
+</code></pre>
+<ul>
+<li>(b) <strong>Positional parameter:</strong> must get a value in the call, matched by position. <strong>Default parameter:</strong> has a value already in the header, used when no value is passed. Default parameters must come <strong>after</strong> positional ones: <code>def interest(p, r, t=2):</code> (so 2024's True/False "positional parameters must be written after default parameters" is <strong>False</strong>).</li>
+<li>(c) return sends a value back to the place where the function was called and ends the function. Example: <code>def sq(n): return n*n</code> and then <code>a = sq(4)</code> stores 16 in a.</li>
+</ul></div></div>
+<div class="qcard star" id="xii-cs-q39" data-qid="xii-cs-q39"><div class="qtext"><p><strong>Q39 ★ (MCQ, SQP)</strong> Possible output?</p>
+<pre><code class="language-python">import random
+games = {0: &quot;Chess&quot;,1: &quot;Scrabble&quot;,2: &quot;Sudoku&quot;,3: &quot;Tic-Tac-Toe&quot;,4: &quot;Puzzle&quot;}
+start_key = random.randint(1, 2)
+end_key = random.randrange(3, 4)
+for k in range(start_key, end_key + 1):
+    print(games[k], end=&quot;@@&quot;)
+</code></pre>
+<p>a) Sudoku@@Tic-Tac-Toe@@Puzzle@@ b) Scrabble@@Sudoku@@Tic-Tac-Toe@@ c) Chess@@Scrabble@@Tic-Tac-Toe@@ d) Scrabble@@Tic-Tac-Toe@@</p></div><div class="qans"><p><strong>Ans: b) Scrabble@@Sudoku@@Tic-Tac-Toe@@.</strong> randint(1,2) gives 1 or 2 (both ends included). randrange(3,4) gives only 3 (the end is not included). So the loop runs from 1 or 2 up to 3: keys 1,2,3 or 2,3.
+<strong>Rule:</strong> randint(a, b) → a to b, <strong>both included</strong>. randrange(a, b) → a to b-1. randrange(b) → 0 to b-1.</p></div></div>
+<div class="qcard star" id="xii-cs-q40" data-qid="xii-cs-q40"><div class="qtext"><p><strong>Q40 ★ (2 marks, 2026)</strong> Which output(s) will NOT be displayed, and how many times does the loop run?</p>
+<pre><code class="language-python">import random
+a = [1,2,3,4,5,6]
+for i in range(4):
+    j = random.randrange(i,5)
+    print(a[j],end='-')
+</code></pre>
+<p>(A) 3-4-5-4- (B) 2-2-4-5- (C) 4-3-3-5- (D) 5-1-2-4-</p></div><div class="qans"><p><strong>Ans:</strong> The loop runs <strong>4 times</strong>. Possible values: 1st print a[0..4] = 1 to 5; 2nd a[1..4] = 2 to 5; 3rd a[2..4] = 3 to 5; 4th a[3..4] = 4 or 5. <strong>(D) 5-1-2-4- will NOT be displayed</strong> (the 2nd value cannot be 1, and the 3rd cannot be 2).
+(2025 version: <code>Cards=["Heart","Spade","Club","Diamond"]</code>, <code>for i in range(2): print(Cards[random.randint(1,i+2)],end="#")</code>. 1st print: index 1-2 (Spade/Club); 2nd: index 1-3 (Spade/Club/Diamond). <strong>Ans: (A) Spade#Diamond#.</strong>)
+(2024 version: <code>for K in range(2,0,-1): R = random.randrange(K)</code> with Signal = ['RED','YELLOW','GREEN']. 1st: index 0-1, 2nd: index 0 only. <strong>Ans: (a) YELLOW#RED#.</strong>)</p></div></div>
+<div class="qcard star" id="xii-cs-q41" data-qid="xii-cs-q41"><div class="qtext"><p><strong>Q41 ★ (MCQ, 2025)</strong> Output?</p>
+<pre><code class="language-python">N='5'
+try:
+    print('WORD' + N, end='#')
+except:
+    print('ERROR',end='#')
+finally:
+    print('OVER')
+</code></pre></div><div class="qans"><p><strong>Ans: (B) WORD5#OVER.</strong> N is a string, so 'WORD' + '5' works and no error occurs. The finally block <strong>always</strong> runs.</p></div></div>
+<div class="qcard" id="xii-cs-q42" data-qid="xii-cs-q42"><div class="qtext"><p><strong>Q42 (1 mark, SQP)</strong> What is written in errorlog.txt?</p>
+<pre><code class="language-python">def data(num):
+    try:
+        return 190/(29-num)
+    except ZeroDivisionError:
+        logfile = open(&quot;errorlog.txt&quot;, &quot;w&quot;)
+        logfile.write(&quot;Num was 29&quot;)
+        logfile.close()
+data(29)
+</code></pre></div><div class="qans"><p><strong>Ans:</strong> <code>Num was 29</code>. 29-29 = 0, so division by zero raises ZeroDivisionError and the except block writes to the file.</p></div></div>
+<div class="qcard" id="xii-cs-q43" data-qid="xii-cs-q43"><div class="qtext"><p><strong>Q43 (True/False, 2026, 2024)</strong> (a) "Logical errors can be handled using try...except...finally." (2026) (b) "The name of the exception must be written with the except clause." (2024)</p></div><div class="qans"><p><strong>Ans: (a) False.</strong> try-except handles run-time errors (exceptions) only; a logical error gives a wrong answer without any error message. <strong>(b) False.</strong> A plain <code>except:</code> catches every exception.</p></div></div>
+<div class="qcard star" id="xii-cs-q44" data-qid="xii-cs-q44"><div class="qtext"><p><strong>Q44 ★ (2 marks, SQP)</strong> Write a function sum_positive(list1) that prints the sum of all positive numbers in the list. Example: [10, -5, 20, -3, 7] → 37.</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<pre><code class="language-python">def sum_positive(list1):
+    total = 0
+    for num in list1:
+        if num &gt; 0:
+            total += num
+    print(total)
+</code></pre>
+<p>(OR part, SQP: capitalize_words(words) → loop, <code>result.append(w.capitalize())</code>, return result.)</p></div></div>
+<div class="qcard" id="xii-cs-q45" data-qid="xii-cs-q45"><div class="qtext"><p><strong>Q45 (3 marks, 2023)</strong> Write EOReplace(L): add 1 to every even number and subtract 1 from every odd number. [10,20,30,40,35,55] → [11,21,31,41,34,54].</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<pre><code class="language-python">def EOReplace(L):
+    for i in range(len(L)):
+        if L[i] % 2 == 0:
+            L[i] = L[i] + 1
+        else:
+            L[i] = L[i] - 1
+    print(L)
+</code></pre></div></div>
+<div class="qcard" id="xii-cs-q46" data-qid="xii-cs-q46"><div class="qtext"><p><strong>Q46 (3 marks, SQP)</strong> pairs = ((2,5),(4,2),(9,8),(12,10)). Write cnt_even() to count pairs (a, b) where both are even.</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<pre><code class="language-python">def cnt_even(t):
+    c = 0
+    for a, b in t:
+        if a % 2 == 0 and b % 2 == 0:
+            c += 1
+    return c
+print(cnt_even(pairs))      # prints 2
+</code></pre></div></div>
+<h3 id="unit-1d-file-handling-text-binary-csv">Unit 1D: File handling (text, binary, CSV)</h3>
+
+<div class="qcard star" id="xii-cs-q47" data-qid="xii-cs-q47"><div class="qtext"><p><strong>Q47 ★ (1 mark each, 2023, 2024, 2026, SQP)</strong> File basics:
+(a) Which mode keeps the file pointer at the <strong>end</strong> of the file? (r+, x, w, a) (2023)
+(b) Default reference point of seek(offset[, ref]) is? (0, 1, 2, 3) (2023)
+(c) F = open('CONTENT.TXT'). Which is invalid: F.seek(1,0), F.seek(0,1), F.seek(0,-1), F.seek(0,2)? (2024)
+(d) Correct mode to open "pqr.dat" in read-only mode: a, rb, r+, rb+? (2026)</p></div><div class="qans"><p><strong>Ans:</strong> (a) <strong>a</strong> (append) (b) <strong>0</strong> (start of file) (c) <strong>F.seek(0,-1)</strong>: the reference point can only be 0, 1 or 2 (start, current, end) (d) <strong>rb</strong> (binary, read only; r+ and rb+ also allow writing).</p></div></div>
+<div class="qcard star" id="xii-cs-q48" data-qid="xii-cs-q48"><div class="qtext"><p><strong>Q48 ★ (2 marks, SQP, 2024)</strong> (a) Difference between seek() and tell() with an example. (b) Difference between 'w' and 'a' modes. (c) Advantage of the with clause.</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<ul>
+<li>(a) <strong>tell()</strong> returns the current position of the file pointer (in bytes). <strong>seek(n)</strong> moves the pointer to position n.</li>
+</ul>
+<pre><code class="language-python">f = open(&quot;file.txt&quot;, &quot;r&quot;)
+print(f.tell())    # 0
+f.seek(5)          # pointer moves to byte 5
+</code></pre>
+<ul>
+<li>(b) <strong>'w'</strong> creates a new file, or <strong>erases</strong> an existing file and writes from the start. <strong>'a'</strong> adds new data at the <strong>end</strong> without erasing old data (and creates the file if it does not exist).</li>
+<li>(c) <code>with open("a.txt") as f:</code> closes the file <strong>automatically</strong> when the block ends, even if an error occurs. Syntax: <code>with open(filename, mode) as fileobject:</code></li>
+</ul></div></div>
+<div class="qcard star" id="xii-cs-q49" data-qid="xii-cs-q49"><div class="qtext"><p><strong>Q49 ★ (3 marks, 2025)</strong> Write a function to display all lines containing the word 'vote' from "Elections.txt".
+File: "In an election many people vote to choose their representative. / The candidate getting the maximum share of votes stands elected. / Normally, one person has to vote once. / The process of voting may vary with time and region."</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<pre><code class="language-python">def show_vote():
+    f = open(&quot;Elections.txt&quot;, &quot;r&quot;)
+    for line in f:
+        words = line.split()
+        if &quot;vote&quot; in words:
+            print(line, end=&quot;&quot;)
+    f.close()
+show_vote()
+</code></pre>
+<p>Output: line 1 and line 3. ("votes" and "voting" are different words, so lines 2 and 4 are not shown.) Marks: ½ header, ½ open, 1½ logic, ½ close/call.</p></div></div>
+<div class="qcard star" id="xii-cs-q50" data-qid="xii-cs-q50"><div class="qtext"><p><strong>Q50 ★ (3 marks, 2026)</strong> Write a function that counts and returns the number of digits in "Space.txt". (The sample text has 1969, 400 and 2030, so it should return 11.)</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<pre><code class="language-python">def count_digits():
+    f = open(&quot;Space.txt&quot;, &quot;r&quot;)
+    data = f.read()
+    f.close()
+    count = 0
+    for ch in data:
+        if ch.isdigit():
+            count += 1
+    return count
+print(count_digits())
+</code></pre>
+<p>(OR part, 2026: show words in which 'e' appears at least twice: loop over <code>f.read().split()</code> and print w if <code>w.count('e') &gt;= 2</code>.)</p></div></div>
+<div class="qcard" id="xii-cs-q51" data-qid="xii-cs-q51"><div class="qtext"><p><strong>Q51 (3 marks, 2024)</strong> Write c_words() to count and display the number of uppercase and lowercase letters in "Words.txt".</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<pre><code class="language-python">def c_words():
+    f = open(&quot;Words.txt&quot;, &quot;r&quot;)
+    data = f.read()
+    f.close()
+    up = lo = 0
+    for ch in data:
+        if ch.isupper():
+            up += 1
+        elif ch.islower():
+            lo += 1
+    print(&quot;Uppercase:&quot;, up)
+    print(&quot;Lowercase:&quot;, lo)
+</code></pre></div></div>
+<div class="qcard" id="xii-cs-q52" data-qid="xii-cs-q52"><div class="qtext"><p><strong>Q52 (3 marks, 2023; similar 2025, SQP)</strong> Write count_Dwords() to count words ending with a digit in "Details.txt". (File: "On seat2 VIP1 will sit and / On seat1 VVIP2 will be sitting" → 4)</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<pre><code class="language-python">def count_Dwords():
+    f = open(&quot;Details.txt&quot;, &quot;r&quot;)
+    count = 0
+    for w in f.read().split():
+        if w[-1].isdigit():
+            count += 1
+    f.close()
+    print(&quot;Number of words ending with a digit are&quot;, count)
+</code></pre>
+<p><strong>Same template, other years:</strong> words starting and ending with a vowel (2025): <code>if w[0] in "aeiouAEIOU" and w[-1] in "aeiouAEIOU"</code>. Count the word "Python" (SQP): <code>if w.lower() == "python"</code>. Lines with at least 10 words (2023): <code>for line in f: if len(line.split()) &gt;= 10: print(line)</code>.</p></div></div>
+<div class="qcard star" id="xii-cs-q53" data-qid="xii-cs-q53"><div class="qtext"><p><strong>Q53 ★ (A-R, SQP; same idea 2025)</strong> A: Opening a file in mode rb allows you to read a binary file without modifying it. R: In rb mode, if the file does not exist, Python creates a new empty file.</p></div><div class="qans"><p><strong>Ans: c) A is true but R is false.</strong> In rb (and r) mode a missing file gives FileNotFoundError; only w and a modes create a new file.
+(2025: A: For a binary file opened in 'rb' mode, pickle.dump() will give an error. R: pickle.dump() is used to read from a binary file. <strong>Ans: (C)</strong> A true, R false: dump() <strong>writes</strong>; load() <strong>reads</strong>.)</p></div></div>
+<div class="qcard star" id="xii-cs-q54" data-qid="xii-cs-q54"><div class="qtext"><p><strong>Q54 ★ (5 marks, SQP; same type 2026, 2025, 2023)</strong> Records are [Roll_No, Student_Name, Course, Fees]. Write functions to (I) input details and append them to a binary file, (II) update the Fees of all students in the "Data Science" course to 75000.</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<pre><code class="language-python">import pickle
+def AddEnrollment():
+    Roll = int(input(&quot;Enter Roll No: &quot;))
+    Name = input(&quot;Enter Student Name: &quot;)
+    Course = input(&quot;Enter Course: &quot;)
+    Fees = int(input(&quot;Enter Fees: &quot;))
+    rec = [Roll, Name, Course, Fees]
+    f = open(&quot;Enrollments.dat&quot;, &quot;ab&quot;)      # ab = append binary
+    pickle.dump(rec, f)
+    f.close()
+
+def UpdateFees():
+    records = []
+    f = open(&quot;Enrollments.dat&quot;, &quot;rb&quot;)
+    try:
+        while True:
+            rec = pickle.load(f)
+            if rec[2] == &quot;Data Science&quot;:
+                rec[3] = 75000
+            records.append(rec)
+    except EOFError:                       # end of file reached
+        f.close()
+    f = open(&quot;Enrollments.dat&quot;, &quot;wb&quot;)      # write back all records
+    for rec in records:
+        pickle.dump(rec, f)
+    f.close()
+</code></pre>
+<p><strong>Steps to remember for update:</strong> read all records with load() in a <code>while True</code> loop inside try, change the matching ones, catch EOFError, then write all records back in "wb" mode. (2026: increase Charges by 500 → <code>rec[3] = rec[3] + 500</code>. 2025: increase FARE by 5% → <code>rec[4] = rec[4] * 1.05</code>.)</p></div></div>
+<div class="qcard" id="xii-cs-q55" data-qid="xii-cs-q55"><div class="qtext"><p><strong>Q55 (3 marks, 2024)</strong> EMP.DAT has records [Emp_Id, Name, Salary]. Write disp_Detail() to show employees with salary below 25000.</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<pre><code class="language-python">import pickle
+def disp_Detail():
+    f = open(&quot;EMP.DAT&quot;, &quot;rb&quot;)
+    try:
+        while True:
+            rec = pickle.load(f)
+            if rec[2] &lt; 25000:
+                print(rec)
+    except EOFError:
+        f.close()
+</code></pre></div></div>
+<div class="qcard star" id="xii-cs-q56" data-qid="xii-cs-q56"><div class="qtext"><p><strong>Q56 ★ (4 marks, SQP; same type 2024)</strong> Rentals.csv has Vehicle_ID, Vehicle_Type, Hours_Rented, Rate_Per_Hour. Write (I) AddRental() to accept details and append them, (II) CalculateTotalRent() to calculate and return total rent (Hours × Rate).</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<pre><code class="language-python">import csv
+def AddRental():
+    vid = input(&quot;Enter Vehicle ID: &quot;)
+    vtype = input(&quot;Enter Vehicle Type: &quot;)
+    hours = input(&quot;Enter Hours Rented: &quot;)
+    rate = input(&quot;Enter Rate Per Hour: &quot;)
+    f = open(&quot;Rentals.csv&quot;, &quot;a&quot;, newline=&quot;&quot;)
+    w = csv.writer(f)
+    w.writerow([vid, vtype, hours, rate])
+    f.close()
+
+def CalculateTotalRent():
+    total = 0
+    f = open(&quot;Rentals.csv&quot;, &quot;r&quot;)
+    r = csv.reader(f)
+    for row in r:
+        total += int(row[2]) * int(row[3])    # csv gives strings, so use int()
+    f.close()
+    return total
+</code></pre>
+<p>Marks: ½ each for input, append mode, writer(), writerow(), read mode, reader(), int() calculation, display/return.
+(2024: Add_Device() is the same as AddRental; Count_Device() counts rows where <code>int(row[2]) &lt; 1000</code>.)</p></div></div>
+<div class="qcard" id="xii-cs-q57" data-qid="xii-cs-q57"><div class="qtext"><p><strong>Q57 (4 marks, 2025; similar 2026)</strong> "P_record.csv" has [Name, Disease, Days, Amount]. Write read_data() to display details of all 'Cancer' patients and count_rec() to count and return the number of records.</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<pre><code class="language-python">import csv
+def read_data():
+    f = open(&quot;P_record.csv&quot;, &quot;r&quot;)
+    for row in csv.reader(f):
+        if row[1] == &quot;Cancer&quot;:
+            print(row)
+    f.close()
+
+def count_rec():
+    f = open(&quot;P_record.csv&quot;, &quot;r&quot;)
+    count = 0
+    for row in csv.reader(f):
+        count += 1
+    f.close()
+    return count
+</code></pre>
+<p>(2026: copy records with population &gt; 10000000 from States.csv to More.csv, skipping the header: call <code>next(r)</code> once to skip the header row, then <code>if int(row[2]) &gt; 10000000: w.writerow(row)</code>.)</p></div></div>
+<h3 id="unit-1e-stack-3-marks-asked-every-year">Unit 1E: Stack (3 marks, asked every year)</h3>
+
+<div class="qcard star" id="xii-cs-q58" data-qid="xii-cs-q58"><div class="qtext"><p><strong>Q58 ★ (3 marks, SQP)</strong> B = [("Machine Learning Basics", 550), ("World Geography", 450), ("Wonder World", 140), ("AI Revolution", 750)]. Write Push_element() to push books with price more than 250 onto stack Books, and Pop_element() to pop and display them, then print "Stack Empty".</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<pre><code class="language-python">Books = []
+def Push_element():
+    for item in B:
+        if item[1] &gt; 250:
+            Books.append(item)
+
+def Pop_element():
+    while Books != []:
+        print(Books.pop())
+    print(&quot;Stack Empty&quot;)
+</code></pre>
+<p>Output:</p>
+<pre><code>('AI Revolution', 750)
+('World Geography', 450)
+('Machine Learning Basics', 550)
+Stack Empty
+</code></pre></div></div>
+<div class="qcard star" id="xii-cs-q59" data-qid="xii-cs-q59"><div class="qtext"><p><strong>Q59 ★ (3 marks, 2024)</strong> Nums = [213,10025,167,254923,14,1297653,31498,386,92765]. PushBig(): push numbers with 5 or more digits onto BigNums. PopBig(): pop and display them, then "Stack Empty".</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<pre><code class="language-python">BigNums = []
+def PushBig():
+    for n in Nums:
+        if len(str(n)) &gt;= 5:
+            BigNums.append(n)
+
+def PopBig():
+    while len(BigNums) &gt; 0:
+        print(BigNums.pop())
+    print(&quot;Stack Empty&quot;)
+</code></pre>
+<p>Stack after PushBig: [10025, 254923, 1297653, 31498, 92765]. Output: 92765, 31498, 1297653, 254923, 10025 (one per line), then Stack Empty.</p></div></div>
+<div class="qcard" id="xii-cs-q60" data-qid="xii-cs-q60"><div class="qtext"><p><strong>Q60 (3 marks, 2023)</strong> Records are [Customer name, Room Type]. Push_Cust(): push names of customers in 'Delux' rooms onto stack Hotel. Pop_Cust(): pop and display names, then "Underflow".</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<pre><code class="language-python">Hotel = []
+def Push_Cust(customers):
+    for c in customers:
+        if c[1] == &quot;Delux&quot;:
+            Hotel.append(c[0])
+
+def Pop_Cust():
+    while Hotel:
+        print(Hotel.pop())
+    print(&quot;Underflow&quot;)
+</code></pre>
+<p>For Siddharth (Delux), Rahul (Standard), Jerry (Delux) the output is Jerry, Siddharth, Underflow.</p></div></div>
+<div class="qcard star" id="xii-cs-q61" data-qid="xii-cs-q61"><div class="qtext"><p><strong>Q61 ★ (3 marks, 2025; same type 2026)</strong> ClrStack holds tuples like ('Yellow', 237, 250, 68). Write push_Clr(ClrStack, new_Clr), pop_Clr(ClrStack) (return the top record, or print "Underflow" if empty), isEmpty(ClrStack) (return True if empty, else False).</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<pre><code class="language-python">def push_Clr(ClrStack, new_Clr):
+    ClrStack.append(new_Clr)
+
+def pop_Clr(ClrStack):
+    if len(ClrStack) == 0:
+        print(&quot;Underflow&quot;)
+    else:
+        return ClrStack.pop()
+
+def isEmpty(ClrStack):
+    if len(ClrStack) == 0:
+        return True
+    else:
+        return False
+</code></pre>
+<p>(2026: push a fruit record only if <code>Fruit['Price'] &lt; 100</code>; display from the top with <code>for i in range(len(S)-1, -1, -1): print(S[i])</code>, else "EMPTY STACK".)</p></div></div>
+<h3 id="unit-2-computer-networks">Unit 2: Computer Networks</h3>
+
+<div class="qcard star" id="xii-cs-q62" data-qid="xii-cs-q62"><div class="qtext"><p><strong>Q62 ★ (MCQ, several years)</strong> One-mark device questions:
+(a) Which device regenerates a weak signal and sends it ahead? (Hub, Ethernet card, Repeater, Modem) (2025)
+(b) Which device is the entry and exit point of a network; all data coming in or going out passes through it? (Modem, Gateway, Switch, Repeater) (2026)
+(c) Every NIC has its own ______ address. (IP, OSI, Physical (MAC), DHCP) (SQP)
+(d) Expanded form of RJ45? (2026)</p></div><div class="qans"><p><strong>Ans:</strong> (a) <strong>Repeater</strong> (b) <strong>Gateway</strong> (c) <strong>Physical (MAC)</strong> (d) <strong>Registered Jack 45</strong></p></div></div>
+<div class="qcard star" id="xii-cs-q63" data-qid="xii-cs-q63"><div class="qtext"><p><strong>Q63 ★ (MCQ, several years)</strong> One-mark protocol questions:
+(a) Protocol for phone calls over the internet? (PPP, FTP, HTTP, VoIP) (2025; 2019 similar)
+(b) Protocol to send and receive emails? (PPP, HTTP, FTP, SMTP) (2024)
+(c) ______ is a set of rules followed by communicating parties for successful, reliable data communication. (2024)</p></div><div class="qans"><p><strong>Ans:</strong> (a) <strong>VoIP</strong> (b) <strong>SMTP</strong> (c) <strong>Protocol</strong></p></div></div>
+<div class="qcard" id="xii-cs-q64" data-qid="xii-cs-q64"><div class="qtext"><p><strong>Q64 (MCQ, SQP, 2023)</strong> (a) Long-distance communication without line-of-sight is mainly done using: Microwaves, Ultraviolet, Radio waves, X-rays (SQP) (b) ______ is used for point-to-point (unicast) communication such as radar and satellite: Infrared, Bluetooth, Microwaves, Radio waves (2023)</p></div><div class="qans"><p><strong>Ans:</strong> (a) <strong>Radio waves</strong> (b) <strong>Microwaves</strong></p></div></div>
+<div class="qcard" id="xii-cs-q65" data-qid="xii-cs-q65"><div class="qtext"><p><strong>Q65 (MCQ, SQP, 2024)</strong> (a) In ______ switching, a dedicated path between sender and receiver is set up before communication starts. (b) Unit of network bandwidth: KB, Bit, Hz, Km (2024)</p></div><div class="qans"><p><strong>Ans:</strong> (a) <strong>Circuit</strong> switching (b) <strong>Hz</strong> (Hertz). (Data transfer rate is measured in bps.)</p></div></div>
+<div class="qcard star" id="xii-cs-q66" data-qid="xii-cs-q66"><div class="qtext"><p><strong>Q66 ★ (1-2 marks, 2026, 2025, 2024, 2023)</strong> Expand: XML, ARPANET, PPP, HTML, TCP, URL.</p></div><div class="qans"><p><strong>Ans:</strong> XML = eXtensible Markup Language; ARPANET = Advanced Research Projects Agency Network; PPP = Point-to-Point Protocol; HTML = HyperText Markup Language; TCP = Transmission Control Protocol; URL = Uniform Resource Locator.
+(2025: "Explain URL": the complete address of a web page or file on the internet, for example https://www.cbse.gov.in/index.html. "Use of PPP": it is used for a direct connection between two computers/devices, for example a home computer and the ISP's server over a telephone line.)</p></div></div>
+<div class="qcard star" id="xii-cs-q67" data-qid="xii-cs-q67"><div class="qtext"><p><strong>Q67 ★ (2 marks, SQP)</strong> Which protocol helps us browse web pages using internet browsers? Name one browser.</p></div><div class="qans"><p><strong>Ans:</strong> <strong>HTTP</strong> (HyperText Transfer Protocol) (or HTTPS, the secure version). Browser: Google Chrome / Mozilla Firefox / Microsoft Edge / Safari.
+(2026: "What is a protocol? Which protocol transmits hypertext across the web?" → A protocol is a set of rules for communication between devices on a network; HTTP.)</p></div></div>
+<div class="qcard star" id="xii-cs-q68" data-qid="xii-cs-q68"><div class="qtext"><p><strong>Q68 ★ (2 marks, 2026, SQP)</strong> (a) One advantage and one disadvantage of bus topology. (b) Define tree topology and give one limitation.</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<ul>
+<li>(a) <strong>Bus advantage:</strong> needs the least cable, so it is cheap and easy to set up. <strong>Disadvantage:</strong> if the main cable (backbone) fails, the whole network stops; finding a fault is hard.</li>
+<li>(b) <strong>Tree topology:</strong> groups of star networks connected to a main bus (backbone) cable, in a hierarchy. <strong>Limitation:</strong> if the backbone fails, the whole network fails; it needs a lot of cable and devices, so it is costly.</li>
+</ul></div></div>
+<div class="qcard" id="xii-cs-q69" data-qid="xii-cs-q69"><div class="qtext"><p><strong>Q69 (2 marks, 2024, 2023)</strong> (a) One difference between circuit and packet switching. (b) Define web hosting and name two web browsers. (c) Difference between URL and domain name.</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<ul>
+<li>(a) <strong>Circuit switching:</strong> a fixed path is reserved for the whole communication (like a phone call). <strong>Packet switching:</strong> data is broken into packets that may travel by different routes and are joined at the destination; no path is reserved.</li>
+<li>(b) <strong>Web hosting:</strong> a service that stores a website's files on a web server connected to the internet, so anyone can open the website. Browsers: Chrome, Firefox.</li>
+<li>(c) A <strong>domain name</strong> is the name of a website (cbse.gov.in). A <strong>URL</strong> is the full address of a page, which includes the protocol, domain name and file path (https://www.cbse.gov.in/index.html).</li>
+</ul></div></div>
+<div class="qcard star" id="xii-cs-q70" data-qid="xii-cs-q70"><div class="qtext"><p><strong>Q70 ★ (5 marks, SQP case study)</strong> AKA University, Raipur, has Law Block (30 computers), Technology Block (55), HR Center (120), Business Block (45). Distances: Law-Business 90 m, Law-Technology 55 m, Law-HR 120 m, Business-Technology 70 m, Business-HR 105 m, Technology-HR 45 m.
+(I) Best place for the server? (II) Topology for centralised network management (draw it). (III) Where to place a repeater and a switch? (IV) Connect a study center in Delhi with reasonably high-speed guided medium. (V) Protocol for a face-to-face digital meeting with all heads at once / use of VoIP.</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<ul>
+<li>(I) <strong>HR Center</strong>, because it has the <strong>maximum number of computers</strong> (120), so most traffic stays inside it (80-20 rule).</li>
+<li>(II) <strong>Star topology</strong>: HR Center in the middle with a separate cable from HR Center to each of Law, Technology and Business blocks. (Draw 4 boxes, HR in the centre, 3 lines out of it.)</li>
+<li>(III) <strong>Repeater</strong> between HR Center and Law Block (120 m) and between HR Center and Business Block (105 m), because these distances are <strong>more than 100 m</strong>. <strong>Switch</strong> in <strong>every block</strong>, to connect the computers inside that block.</li>
+<li>(IV) <strong>Optical fibre</strong> cable.</li>
+<li>(V) <strong>VoIP</strong> (Voice over Internet Protocol). VoIP lets us make voice and video calls over the internet instead of a normal telephone line.</li>
+</ul></div></div>
+<div class="qcard star" id="xii-cs-q71" data-qid="xii-cs-q71"><div class="qtext"><p><strong>Q71 ★ (5 marks, 2026 case study)</strong> Amritsar campus: ADMIN 25 computers, ACADEMIC 600, HOSTEL 120, SPORTS 50. Distances: ADMIN-ACADEMIC 60 m, ADMIN-HOSTEL 160 m, ADMIN-SPORTS 80 m, ACADEMIC-HOSTEL 40 m, ACADEMIC-SPORTS 120 m, HOSTEL-SPORTS 150 m. (i) Server location (ii) Cable layout (iii) Two wired media (iv) FM-type broadcast in the campus: radio waves, microwaves or infrared?</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<ul>
+<li>(i) <strong>ACADEMIC block</strong>: it has the most computers (600).</li>
+<li>(ii) <strong>Star layout from ACADEMIC:</strong> ACADEMIC-ADMIN (60 m), ACADEMIC-HOSTEL (40 m), ACADEMIC-SPORTS (120 m; put a repeater on this cable because it is over 100 m).</li>
+<li>(iii) Twisted pair (Ethernet) cable and optical fibre cable (co-axial cable is also wired).</li>
+<li>(iv) <strong>Radio waves</strong> (FM radio uses radio waves).</li>
+</ul></div></div>
+<div class="qcard" id="xii-cs-q72" data-qid="xii-cs-q72"><div class="qtext"><p><strong>Q72 (1 mark each, 2025, 2023, 2024 case studies)</strong> Common extra parts:
+(a) Device to connect all computers within each block? (b) Where should the router be placed? (c) Manager in another city wants to remotely use a computer in the Admin block: which protocol? (d) Protocol to transfer files between two branches? (e) Delhi office connected to Kanpur 300 km away: LAN, MAN or WAN? (f) Fast wired medium to connect offices in two different cities? (g) Device to refresh the signal and reduce data loss between distant locations?</p></div><div class="qans"><p><strong>Ans:</strong> (a) <strong>Switch</strong> (b) In the <strong>server block</strong> (router/gateway connects the LAN to the internet) (c) <strong>TELNET</strong> (d) <strong>FTP</strong> (File Transfer Protocol) (e) <strong>WAN</strong>, because the distance is more than a city (f) <strong>Optical fibre</strong> (g) <strong>Repeater</strong></p></div></div>
+<h3 id="unit-3-database-concepts-and-sql">Unit 3: Database concepts and SQL</h3>
+
+<div class="qcard star" id="xii-cs-q73" data-qid="xii-cs-q73"><div class="qtext"><p><strong>Q73 ★ (MCQ, SQP, 2026)</strong> (a) A column in one table that matches the primary key of another table is a: composite / candidate / foreign / super key (SQP). (b) A table has two candidate keys and one is chosen as primary key. How many alternate keys? 0/1/2/3 (2026). (c) "Class" can only take values from {IX, X, XI, XII}. This set is the: domain / tuple / attribute / key (SQP).</p></div><div class="qans"><p><strong>Ans:</strong> (a) <strong>Foreign key</strong> (b) <strong>1</strong> (alternate keys = candidate keys - primary key = 2 - 1) (c) <strong>Domain</strong></p></div></div>
+<div class="qcard star" id="xii-cs-q74" data-qid="xii-cs-q74"><div class="qtext"><p><strong>Q74 ★ (MCQ, 2026, SQP, 2023, 2025)</strong> (a) A relation has 2 tuples and 3 attributes. 2 attributes are deleted and 4 tuples are added. Cardinality = ? (2026) (b) Which will NOT change when a new record is inserted: cardinality, degree, number of tuples, total rows? (SQP) (c) ______ is the number of tuples in a relation. (2023) (d) True/False: table A has 6 rows, 3 columns and B has 5 rows, 2 columns; their Cartesian product has 30 rows and 5 columns. (2025)</p></div><div class="qans"><p><strong>Ans:</strong> (a) <strong>6</strong> (2 + 4 rows; deleting columns does not change rows) (b) <strong>Degree</strong> (c) <strong>Cardinality</strong> (d) <strong>True</strong> (rows multiply: 6 × 5 = 30; columns add: 3 + 2 = 5)
+<strong>Remember:</strong> Degree = number of columns (attributes). Cardinality = number of rows (tuples).</p></div></div>
+<div class="qcard star" id="xii-cs-q75" data-qid="xii-cs-q75"><div class="qtext"><p><strong>Q75 ★ (MCQ, 2025, 2024, 2026)</strong> (a) Which is a DML command: UPDATE, CREATE, ALTER, DROP? (2025) (b) Which is NOT a DDL command: DROP, CREATE, UPDATE, ALTER? (2024) (c) Which command can change the degree of a table: DROP TABLE, ALTER TABLE, UPDATE...SET, DELETE? (2026) (d) Which removes the attribute Age from Student? (SQP)</p></div><div class="qans"><p><strong>Ans:</strong> (a) <strong>UPDATE</strong> (b) <strong>UPDATE</strong> (c) <strong>ALTER TABLE</strong> (d) <strong>ALTER TABLE Student DROP COLUMN Age;</strong>
+DDL (structure): CREATE, ALTER, DROP. DML (data): INSERT, UPDATE, DELETE, SELECT.</p></div></div>
+<div class="qcard star" id="xii-cs-q76" data-qid="xii-cs-q76"><div class="qtext"><p><strong>Q76 ★ (MCQ, 2025, 2026, 2024, SQP)</strong> (a) Constraint that does not allow duplicate values: UNIQUE / DISTINCT / NOT NULL / HAVING (2025). (b) Aggregate function that counts values in a column ignoring NULLs (2025). (c) Aggregate function that returns the smallest value (2026). (d) Aggregate function that displays the cardinality of a table (2024). (e) SELECT combined with ______ returns records without repetition (2024). (f) Query for salaries between 90000 and 100000 including both limits (SQP).</p></div><div class="qans"><p><strong>Ans:</strong> (a) <strong>UNIQUE</strong> (b) <strong>COUNT()</strong> (c) <strong>MIN()</strong> (d) *<em>COUNT(<em>)</em></em> (e) <strong>DISTINCT</strong> (f) <code>SELECT * FROM Employees WHERE salary BETWEEN 90000 AND 100000;</code></p></div></div>
+<div class="qcard" id="xii-cs-q77" data-qid="xii-cs-q77"><div class="qtext"><p><strong>Q77 (A-R, SQP; same idea 2026)</strong> A: <code>SELECT Student_Name FROM Student WHERE Guardian_Phone IS NULL;</code> shows names of students whose guardian phone number is not recorded. R: In MySQL you can also use = to check NULL values; it is the same as IS NULL.</p></div><div class="qans"><p><strong>Ans: c) A is true but R is false.</strong> NULL can only be checked with IS NULL / IS NOT NULL. <code>= NULL</code> never matches.
+(2026: A: PRIMARY KEY makes each value unique and not NULL. R: Candidate keys are not eligible to become a primary key. <strong>Ans: (C)</strong> A true, R false: the primary key is chosen <strong>from</strong> the candidate keys.)</p></div></div>
+<div class="qcard star" id="xii-cs-q78" data-qid="xii-cs-q78"><div class="qtext"><p><strong>Q78 ★ (2 marks, SQP, 2024, 2023)</strong> Write commands to: (a) display all tables in the current database (b) delete database CS_SP (c) show the structure of table Term1 (d) view all databases.</p></div><div class="qans"><p><strong>Ans:</strong> (a) <code>SHOW TABLES;</code> (b) <code>DROP DATABASE CS_SP;</code> (c) <code>DESCRIBE Term1;</code> (or <code>DESC Term1;</code>) (d) <code>SHOW DATABASES;</code></p></div></div>
+<div class="qcard star" id="xii-cs-q79" data-qid="xii-cs-q79"><div class="qtext"><p><strong>Q79 ★ (2 marks, SQP; same idea 2023)</strong> Difference between ALTER and UPDATE, with examples. (2023: two DDL and two DML commands; CHAR vs VARCHAR.)</p></div><div class="qans"><p><strong>Ans:</strong>
+| ALTER | UPDATE |
+|---|---|
+| DDL command; changes the <strong>structure</strong> of a table (adds, removes or changes columns/constraints) | DML command; changes the <strong>data</strong> (values in rows) |
+| <code>ALTER TABLE Employee ADD age INT;</code> | <code>UPDATE Employee SET salary = 50000 WHERE emp_id = 10;</code> |
+<strong>CHAR(n)</strong> is fixed length: CHAR(10) always uses 10 characters of space. <strong>VARCHAR(n)</strong> is variable length: it uses only as much space as the actual value (up to n).</p></div></div>
+<div class="qcard star" id="xii-cs-q80" data-qid="xii-cs-q80"><div class="qtext"><p><strong>Q80 ★ (2 marks, 2026)</strong> Table W_STOCK: W_Code CHAR(5), W_Description VARCHAR(20), B_Qty INTEGER, U_Price FLOAT. (i)(a) Create the table with W_Code as primary key. (b) Can U_Price be the primary key? (ii)(a) Add attribute E_Date (DATE). (b) Remove column B_Qty.</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<ul>
+<li>(i)(a)</li>
+</ul>
+<pre><code class="language-sql">CREATE TABLE W_STOCK (
+  W_Code CHAR(5) PRIMARY KEY,
+  W_Description VARCHAR(20),
+  B_Qty INT,
+  U_Price FLOAT
+);
+</code></pre>
+<ul>
+<li>(i)(b) <strong>No.</strong> Two items can have the same price, and a primary key must be unique for every row.</li>
+<li>(ii)(a) <code>ALTER TABLE W_STOCK ADD E_Date DATE;</code> (b) <code>ALTER TABLE W_STOCK DROP COLUMN B_Qty;</code></li>
+</ul></div></div>
+<div class="qcard" id="xii-cs-q81" data-qid="xii-cs-q81"><div class="qtext"><p><strong>Q81 (2 marks, 2025; same type 2024)</strong> Table EMPLOYEES (EMPNO, NAME, DEPARTMENT, BASICSAL); two employees can have the same name. (i)(a) Which attribute should be the primary key? (b) Constraint so that NAME cannot be NULL but can repeat. (ii)(a) Change BASICSAL to store up to 99999.99. (b) Delete the table.</p></div><div class="qans"><p><strong>Ans:</strong> (i)(a) <strong>EMPNO</strong>, because it is unique for each employee (names can repeat). (b) <strong>NOT NULL</strong>. (ii)(a) <code>ALTER TABLE EMPLOYEES MODIFY BASICSAL FLOAT(7,2);</code> (7 digits in total, 2 after the decimal point; DECIMAL(7,2) is also accepted) (b) <code>DROP TABLE EMPLOYEES;</code>
+(2024: add column Category: <code>ALTER TABLE Sports ADD Category VARCHAR(20);</code> then <code>INSERT INTO Sports VALUES ('G42', 'Above 18', 'Chess', 'Senior');</code>. Add primary key: <code>ALTER TABLE Projects ADD PRIMARY KEY (P_id);</code>)</p>
+<p><strong>Practice table for Q82-Q84</strong> (written for practice in the board style; the board papers give a similar table in Q32):</p>
+<p>Table: EMPLOYEE</p>
+<table>
+<thead>
+<tr>
+<th>EID</th>
+<th>NAME</th>
+<th>DEPT</th>
+<th>SALARY</th>
+<th>CITY</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>E1</td>
+<td>Aman</td>
+<td>Sales</td>
+<td>45000</td>
+<td>Delhi</td>
+</tr>
+<tr>
+<td>E2</td>
+<td>Neha</td>
+<td>HR</td>
+<td>52000</td>
+<td>Mumbai</td>
+</tr>
+<tr>
+<td>E3</td>
+<td>Rohan</td>
+<td>Sales</td>
+<td>38000</td>
+<td>Delhi</td>
+</tr>
+<tr>
+<td>E4</td>
+<td>Sanjana</td>
+<td>IT</td>
+<td>75000</td>
+<td>Pune</td>
+</tr>
+<tr>
+<td>E5</td>
+<td>Kabir</td>
+<td>IT</td>
+<td>68000</td>
+<td>NULL</td>
+</tr>
+<tr>
+<td>E6</td>
+<td>Divya</td>
+<td>Sales</td>
+<td>40000</td>
+<td>Mumbai</td>
+</tr>
+</tbody>
+</table></div></div>
+<div class="qcard star" id="xii-cs-q82" data-qid="xii-cs-q82"><div class="qtext"><p><strong>Q82 ★ (4 marks, practice; same tasks as SQP Q32, 2026 Q32, 2025 Q32)</strong> Write queries to:
+(i) display the number of employees in each department where the number is more than 1 (SQP type)
+(ii) display the different (distinct) cities (SQP, 2026 type)
+(iii) display details of employees whose names contain 'an' (SQP type)
+(iv) display all records in descending order of name (SQP type)
+(v) display names and salaries of employees with salary between 40000 and 52000 (2025 type)
+(vi) display the record of employees whose city is not known (2025, 2024 type)
+(vii) increase the salary of HR employees by 5000 (2026, 2025 type)
+(viii) display each department and its maximum salary (2026 type)</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<ul>
+<li>(i) <code>SELECT DEPT, COUNT(*) FROM EMPLOYEE GROUP BY DEPT HAVING COUNT(*) &gt; 1;</code></li>
+<li>(ii) <code>SELECT DISTINCT CITY FROM EMPLOYEE;</code></li>
+<li>(iii) <code>SELECT * FROM EMPLOYEE WHERE NAME LIKE '%an%';</code></li>
+<li>(iv) <code>SELECT * FROM EMPLOYEE ORDER BY NAME DESC;</code></li>
+<li>(v) <code>SELECT NAME, SALARY FROM EMPLOYEE WHERE SALARY BETWEEN 40000 AND 52000;</code></li>
+<li>(vi) <code>SELECT * FROM EMPLOYEE WHERE CITY IS NULL;</code></li>
+<li>(vii) <code>UPDATE EMPLOYEE SET SALARY = SALARY + 5000 WHERE DEPT = 'HR';</code></li>
+<li>(viii) <code>SELECT DEPT, MAX(SALARY) FROM EMPLOYEE GROUP BY DEPT;</code></li>
+</ul></div></div>
+<div class="qcard star" id="xii-cs-q83" data-qid="xii-cs-q83"><div class="qtext"><p><strong>Q83 ★ (4 marks, practice; same type as SQP Q32 OR, 2026 Q32(b), 2025 Q32(b))</strong> Write the output:
+(i) <code>SELECT DEPT, COUNT(*) FROM EMPLOYEE GROUP BY DEPT;</code>
+(ii) <code>SELECT NAME FROM EMPLOYEE WHERE NAME LIKE '%an%';</code>
+(iii) <code>SELECT COUNT(*), COUNT(CITY) FROM EMPLOYEE;</code>
+(iv) <code>SELECT DEPT, MAX(SALARY) FROM EMPLOYEE GROUP BY DEPT HAVING COUNT(*) &gt; 1;</code></p></div><div class="qans"><p><strong>Ans:</strong></p>
+<ul>
+<li>(i)</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>DEPT</th>
+<th>COUNT(*)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HR</td>
+<td>1</td>
+</tr>
+<tr>
+<td>IT</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Sales</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>(ii) Aman, Rohan, Sanjana (one per row, under the heading NAME)</li>
+<li>(iii) COUNT(*) = <strong>6</strong>, COUNT(CITY) = <strong>5</strong> (COUNT(column) does not count the NULL)</li>
+<li>(iv)</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>DEPT</th>
+<th>MAX(SALARY)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IT</td>
+<td>75000</td>
+</tr>
+<tr>
+<td>Sales</td>
+<td>45000</td>
+</tr>
+</tbody>
+</table>
+<p>(HR has only 1 employee, so HAVING removes it.)</p></div></div>
+<div class="qcard" id="xii-cs-q84" data-qid="xii-cs-q84"><div class="qtext"><p><strong>Q84 (4 marks, practice)</strong> Output:
+(i) <code>SELECT NAME, SALARY FROM EMPLOYEE ORDER BY SALARY DESC;</code> (first two rows only)
+(ii) <code>SELECT AVG(SALARY) FROM EMPLOYEE WHERE DEPT = 'IT';</code>
+(iii) <code>SELECT MIN(SALARY), MAX(SALARY) FROM EMPLOYEE;</code>
+(iv) <code>SELECT COUNT(DISTINCT DEPT) FROM EMPLOYEE;</code></p></div><div class="qans"><p><strong>Ans:</strong> (i) Sanjana 75000, Kabir 68000 (ii) 71500 (MySQL shows 71500.0000) (iii) 38000, 75000 (iv) 3</p></div></div>
+<div class="qcard star" id="xii-cs-q85" data-qid="xii-cs-q85"><div class="qtext"><p><strong>Q85 ★ (4 marks, SQP)</strong> Tables Chess_Event (Event_ID, Event_Name, Event_Date, Venue, ...) and Registrations (..., Student_Name, Event_ID, ...). Write queries to:
+(I) update the venue of "Inter-School Chess Championship" to "Multi-Purpose Hall"
+(II) display all chess events after 2025-01-01
+(III) display registration details of students registered for events in 'Auditorium Hall', 'Activity Room 3' or 'Library Conference Area'
+(IV)(a) display student_name with event_name for all registrations OR (b) display the Cartesian product of the two tables.</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<ul>
+<li>(I) <code>UPDATE Chess_Event SET Venue = 'Multi-Purpose Hall' WHERE Event_Name = 'Inter-School Chess Championship';</code></li>
+<li>(II) <code>SELECT * FROM Chess_Event WHERE Event_Date &gt; '2025-01-01';</code></li>
+<li>(III) <code>SELECT R.* FROM Registrations R, Chess_Event C WHERE R.Event_ID = C.Event_ID AND C.Venue IN ('Auditorium Hall', 'Activity Room 3', 'Library Conference Area');</code></li>
+<li>(IV)(a) <code>SELECT R.Student_Name, C.Event_Name FROM Registrations R, Chess_Event C WHERE R.Event_ID = C.Event_ID;</code></li>
+<li>(IV)(b) <code>SELECT * FROM Chess_Event, Registrations;</code>
+<strong>Rule for joins:</strong> write both table names after FROM and join them on the <strong>common column</strong> in WHERE: <code>WHERE A.col = B.col</code>.</li>
+</ul></div></div>
+<div class="qcard star" id="xii-cs-q86" data-qid="xii-cs-q86"><div class="qtext"><p><strong>Q86 ★ (4 marks, 2026)</strong> Tables CUSTOMERS (C_ID, C_Name, ...) and LOANS (C_ID, L_Amt, RoI, L_Date, Terms, ...). Write queries for: (i) number of records in LOANS where RoI is above 7.0 (ii) names of customers whose loan amount is above 1000000 (iii) C_ID, C_Name and Terms of records where L_Date is after 31 December 2024 (iv)(a) details of all loans in descending order of RoI OR (b) C_ID and average term for each C_ID.</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<ul>
+<li>(i) <code>SELECT COUNT(*) FROM LOANS WHERE RoI &gt; 7.0;</code></li>
+<li>(ii) <code>SELECT C_Name FROM CUSTOMERS C, LOANS L WHERE C.C_ID = L.C_ID AND L_Amt &gt; 1000000;</code></li>
+<li>(iii) <code>SELECT C.C_ID, C_Name, Terms FROM CUSTOMERS C, LOANS L WHERE C.C_ID = L.C_ID AND L_Date &gt; '2024-12-31';</code></li>
+<li>(iv)(a) <code>SELECT * FROM LOANS ORDER BY RoI DESC;</code> (b) <code>SELECT C_ID, AVG(Terms) FROM LOANS GROUP BY C_ID;</code>
+(Column names in (ii)-(iii) are as given in the question; the tables are joined on C_ID.)</li>
+</ul></div></div>
+<div class="qcard" id="xii-cs-q87" data-qid="xii-cs-q87"><div class="qtext"><p><strong>Q87 (4 marks, 2025)</strong> Tables Articles (Code, A_Code, Article, DOC, Price) and Artists (A_Code, Name, Phone, Email, DOB). Write queries to: (i) show all Articles in descending order of price (ii) show Articles created in 2020 (iii) show the structure of Artists (iv) names of artists whose Article is 'Painting' using (a) equi-join (b) natural join.</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<ul>
+<li>(i) <code>SELECT * FROM Articles ORDER BY Price DESC;</code></li>
+<li>(ii) <code>SELECT * FROM Articles WHERE DOC BETWEEN '2020-01-01' AND '2020-12-31';</code></li>
+<li>(iii) <code>DESCRIBE Artists;</code></li>
+<li>(iv)(a) <code>SELECT Name FROM Artists, Articles WHERE Artists.A_Code = Articles.A_Code AND Article = 'Painting';</code></li>
+<li>(iv)(b) <code>SELECT Name FROM Artists NATURAL JOIN Articles WHERE Article = 'Painting';</code>
+<strong>Equi-join</strong> shows the common column twice; <strong>natural join</strong> shows it only once.</li>
+</ul></div></div>
+<h3 id="unit-3b-python-mysql-connectivity-4-marks-asked-every-year-s">Unit 3B: Python-MySQL connectivity (4 marks, asked every year since 2023)</h3>
+
+<div class="qcard star" id="xii-cs-q88" data-qid="xii-cs-q88"><div class="qtext"><p><strong>Q88 ★ (4 marks, SQP; same type 2024)</strong> Database LibraryDB, table book_records (Book_ID, Book_Title, Author, Copies). User librarian, password lib@2025, host localhost. Change Book_Title to 'Data Structures in Python' for Book_ID 109.</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<pre><code class="language-python">import mysql.connector
+con = mysql.connector.connect(host=&quot;localhost&quot;, user=&quot;librarian&quot;,
+                              password=&quot;lib@2025&quot;, database=&quot;LibraryDB&quot;)
+cur = con.cursor()
+q = &quot;UPDATE book_records SET Book_Title='Data Structures in Python' WHERE Book_ID=109&quot;
+cur.execute(q)
+con.commit()                 # needed to save INSERT / UPDATE / DELETE
+print(&quot;Book title updated successfully.&quot;)
+con.close()
+</code></pre>
+<p>Marks: ½ import, ½ connect(), ½ cursor(), 1 query, 1 execute + commit, ½ close.</p></div></div>
+<div class="qcard star" id="xii-cs-q89" data-qid="xii-cs-q89"><div class="qtext"><p><strong>Q89 ★ (4 marks, 2026; same type 2024 OR)</strong> Table Account (Stud_id, Sname, Class, Fees) in database SCHOOL. User admin, password root, host localhost. Display records of students whose fees is less than 5000.</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<pre><code class="language-python">import mysql.connector
+con = mysql.connector.connect(host=&quot;localhost&quot;, user=&quot;admin&quot;,
+                              password=&quot;root&quot;, database=&quot;SCHOOL&quot;)
+cur = con.cursor()
+cur.execute(&quot;SELECT * FROM Account WHERE Fees &lt; 5000&quot;)
+data = cur.fetchall()        # list of tuples
+for row in data:
+    print(row)
+con.close()
+</code></pre>
+<p>For SELECT there is no commit(). (2023 MCQ: fetchall() returns a <strong>list of tuples</strong>.)</p></div></div>
+<div class="qcard" id="xii-cs-q90" data-qid="xii-cs-q90"><div class="qtext"><p><strong>Q90 (4 marks, 2025)</strong> Table THEATRE (Th_ID, Name, City, Location, Seats) in database CINEMA. Host localhost, user root, password Ex2025. Write Delete_Theatre() to input Th_ID and permanently delete that record.</p></div><div class="qans"><p><strong>Ans:</strong></p>
+<pre><code class="language-python">import mysql.connector
+def Delete_Theatre():
+    con = mysql.connector.connect(host=&quot;localhost&quot;, user=&quot;root&quot;,
+                                  password=&quot;Ex2025&quot;, database=&quot;CINEMA&quot;)
+    cur = con.cursor()
+    tid = input(&quot;Enter Theatre ID: &quot;)
+    q = &quot;DELETE FROM THEATRE WHERE Th_ID = '{}'&quot;.format(tid)
+    cur.execute(q)
+    con.commit()
+    print(cur.rowcount, &quot;record(s) deleted&quot;)
+    con.close()
+</code></pre>
+<p>(The query can also use %s: <code>cur.execute("DELETE FROM THEATRE WHERE Th_ID = %s", (tid,))</code>.)</p></div></div>
+<div class="qcard" id="xii-cs-q91" data-qid="xii-cs-q91"><div class="qtext"><p><strong>Q91 (3 marks, 2023)</strong> Complete the code that deletes the record with E_code 'E101' from table employee (database emp, user root, password root):</p>
+<pre><code class="language-python">import ________ as mysql        # Statement 1
+def delete():
+    mydb=mysql.connect(host=&quot;localhost&quot;,user=&quot;root&quot;,passwd=&quot;root&quot;,database=&quot;emp&quot;)
+    mycursor=mydb.cursor()
+    ________                    # Statement 2
+    ________                    # Statement 3
+    print(&quot;Record deleted&quot;)
+</code></pre></div><div class="qans"><p><strong>Ans:</strong> Statement 1: <code>import mysql.connector as mysql</code> Statement 2: <code>mycursor.execute("DELETE FROM employee WHERE E_code='E101'")</code> Statement 3: <code>mydb.commit()</code>
+(OR part: to fetch employees from Delhi: <code>mycursor.execute("SELECT * FROM employee WHERE City='Delhi'")</code> and <code>details = mycursor.fetchall()</code>.)</p></div></div>
+<hr />
+<h2 id="6-quick-revision-sheet">6. Quick revision sheet</h2>
+
+<h3 id="6a-python-one-liners-to-remember">6a. Python one-liners to remember</h3>
+
+<table>
+<thead>
+<tr>
+<th>Topic</th>
+<th>Remember</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mutable / immutable</td>
+<td>Mutable: list, dictionary. Immutable: int, float, string, tuple</td>
+</tr>
+<tr>
+<td>Operator order</td>
+<td>() → ** (right to left) → * / // % → + - → relational (&lt; &gt; == !=) → not → and → or</td>
+</tr>
+<tr>
+<td>/ vs // vs %</td>
+<td>7/2 = 3.5 (always float); 7//2 = 3; 7%2 = 1 (remainder)</td>
+</tr>
+<tr>
+<td>Slicing</td>
+<td>s[start:stop:step]; stop is never included; s[::-1] reverses</td>
+</tr>
+<tr>
+<td>split()</td>
+<td>returns a <strong>list</strong>; separator is removed</td>
+</tr>
+<tr>
+<td>partition()</td>
+<td>returns a <strong>tuple of 3</strong>: (before, sep, after); splits at the first match only</td>
+</tr>
+<tr>
+<td>find() vs index()</td>
+<td>find() returns -1 if not found; index() gives ValueError</td>
+</tr>
+<tr>
+<td>capitalize() vs title()</td>
+<td>"the truth" → "The truth" vs "The Truth"</td>
+</tr>
+<tr>
+<td>strip(), lstrip(), rstrip()</td>
+<td>remove spaces from both ends / left / right</td>
+</tr>
+<tr>
+<td>isalpha(), isdigit(), isalnum(), isupper(), islower(), isspace()</td>
+<td>return True or False</td>
+</tr>
+<tr>
+<td>List add</td>
+<td>append(x) adds one item at the end; extend(list) adds many; insert(i, x) adds at index i</td>
+</tr>
+<tr>
+<td>List remove</td>
+<td>pop() removes the last item (pop(i) removes index i); remove(x) removes first x by value; del L[i]</td>
+</tr>
+<tr>
+<td>sort() vs sorted()</td>
+<td>L.sort() changes L and returns None; sorted(L) returns a new list</td>
+</tr>
+<tr>
+<td>Dictionary</td>
+<td>keys(), values(), items(), get(k), update(d2), pop(k), popitem(), clear(), setdefault(k, v), fromkeys()</td>
+</tr>
+<tr>
+<td>Loop on dict</td>
+<td><code>for k in D:</code> gives keys; <code>for k, v in D.items():</code> gives both</td>
+</tr>
+<tr>
+<td><code>in</code> on dict</td>
+<td>checks <strong>keys</strong> only</td>
+</tr>
+<tr>
+<td>Tuple with one item</td>
+<td>t = (5,) (comma needed)</td>
+</tr>
+<tr>
+<td>Function with no return</td>
+<td>returns None</td>
+</tr>
+<tr>
+<td>Scope</td>
+<td>Assigning a variable inside a function makes it local, unless you write <code>global x</code> first</td>
+</tr>
+<tr>
+<td>Default parameters</td>
+<td>must come after positional ones: def f(a, b=5)</td>
+</tr>
+<tr>
+<td>random</td>
+<td>random() → 0 to &lt;1; randint(a,b) → a to b (both included); randrange(a,b) → a to b-1</td>
+</tr>
+<tr>
+<td>Exceptions</td>
+<td>try (risky code) → except (runs only if error) → finally (always runs). Common: ZeroDivisionError, ValueError, TypeError, IndexError, KeyError, NameError, EOFError, FileNotFoundError</td>
+</tr>
+<tr>
+<td>Types of errors</td>
+<td>Syntax error (rules broken, e.g. missing colon); run-time error (e.g. 5/0); logical error (wrong answer, no message)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="6b-file-handling-templates">6b. File handling templates</h3>
+
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Text file</th>
+<th>Binary file</th>
+<th>CSV file</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Import</td>
+<td>nothing</td>
+<td><code>import pickle</code></td>
+<td><code>import csv</code></td>
+</tr>
+<tr>
+<td>Open to read</td>
+<td><code>open("a.txt","r")</code></td>
+<td><code>open("a.dat","rb")</code></td>
+<td><code>open("a.csv","r")</code></td>
+</tr>
+<tr>
+<td>Open to write (erase old)</td>
+<td><code>"w"</code></td>
+<td><code>"wb"</code></td>
+<td><code>open("a.csv","w",newline="")</code></td>
+</tr>
+<tr>
+<td>Open to add at end</td>
+<td><code>"a"</code></td>
+<td><code>"ab"</code></td>
+<td><code>"a"</code> with newline=""</td>
+</tr>
+<tr>
+<td>Write</td>
+<td><code>f.write(str)</code>, <code>f.writelines(list)</code></td>
+<td><code>pickle.dump(record, f)</code></td>
+<td><code>w = csv.writer(f)</code>; <code>w.writerow(list)</code>, <code>w.writerows(list_of_lists)</code></td>
+</tr>
+<tr>
+<td>Read</td>
+<td><code>f.read()</code> (whole file as one string), <code>f.readline()</code> (one line), <code>f.readlines()</code> (list of lines)</td>
+<td><code>pickle.load(f)</code> in <code>while True:</code> inside <code>try ... except EOFError:</code></td>
+<td><code>r = csv.reader(f)</code> then <code>for row in r:</code> (each row is a list of <strong>strings</strong>)</td>
+</tr>
+<tr>
+<td>Close</td>
+<td><code>f.close()</code></td>
+<td><code>f.close()</code></td>
+<td><code>f.close()</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Text file counting template (fits almost every Q29):</strong></p>
+<pre><code class="language-python">def func():
+    f = open(&quot;FILE.txt&quot;, &quot;r&quot;)
+    data = f.read()          # or: for line in f:
+    words = data.split()
+    count = 0
+    for w in words:
+        if &lt;condition&gt;:
+            count += 1
+    print(count)
+    f.close()
+func()
+</code></pre>
+<p><strong>Modes:</strong> r (read; error if file missing), r+ (read + write), w (write; erases), w+ (write + read), a (append; pointer at end), a+ (append + read). Add b for binary. seek(offset, ref): ref 0 = start (default), 1 = current, 2 = end. tell() = current position.
+<strong>Absolute path:</strong> full path from the drive, e.g. C:\School\data.txt. <strong>Relative path:</strong> from the current folder, e.g. data.txt.</p>
+<p><strong>Stack template:</strong></p>
+<pre><code class="language-python">stack = []
+def push(item):
+    stack.append(item)            # add at the top
+def pop():
+    if stack == []:
+        print(&quot;Underflow&quot;)        # or &quot;Stack Empty&quot;
+    else:
+        return stack.pop()        # remove from the top
+</code></pre>
+<p>Stack = <strong>LIFO</strong> (Last In, First Out). Push = append(); pop = pop(); top = stack[-1]. Overflow does not happen in a Python list; underflow = popping from an empty stack.</p>
+<h3 id="6c-sql-patterns-learn-these-15-and-the-connectivity-template">6c. SQL patterns (learn these 15) and the connectivity template</h3>
+
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Query pattern</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>All rows</td>
+<td><code>SELECT * FROM T;</code></td>
+</tr>
+<tr>
+<td>Some columns with condition</td>
+<td><code>SELECT a, b FROM T WHERE cond;</code></td>
+</tr>
+<tr>
+<td>Range</td>
+<td><code>WHERE col BETWEEN 10 AND 20</code> (both included)</td>
+</tr>
+<tr>
+<td>List of values</td>
+<td><code>WHERE col IN ('A', 'B')</code></td>
+</tr>
+<tr>
+<td>Pattern</td>
+<td><code>LIKE 'A%'</code> (starts with A), <code>'%a'</code> (ends with a), <code>'%an%'</code> (contains an), <code>'_a%'</code> (2nd letter a)</td>
+</tr>
+<tr>
+<td>Missing value</td>
+<td><code>WHERE col IS NULL</code> / <code>IS NOT NULL</code></td>
+</tr>
+<tr>
+<td>Sort</td>
+<td><code>ORDER BY col</code> (ascending), <code>ORDER BY col DESC</code></td>
+</tr>
+<tr>
+<td>No repeats</td>
+<td><code>SELECT DISTINCT col FROM T;</code></td>
+</tr>
+<tr>
+<td>Aggregates</td>
+<td><code>COUNT(*)</code>, <code>COUNT(col)</code> (skips NULL), <code>SUM()</code>, <code>AVG()</code>, <code>MAX()</code>, <code>MIN()</code></td>
+</tr>
+<tr>
+<td>Group</td>
+<td><code>SELECT col, COUNT(*) FROM T GROUP BY col;</code></td>
+</tr>
+<tr>
+<td>Condition on group</td>
+<td><code>... GROUP BY col HAVING COUNT(*) &gt; 1;</code> (WHERE is for rows, HAVING is for groups)</td>
+</tr>
+<tr>
+<td>Alias</td>
+<td><code>SELECT Qty*Price AS Total FROM T;</code></td>
+</tr>
+<tr>
+<td>Change data</td>
+<td><code>UPDATE T SET col = value WHERE cond;</code></td>
+</tr>
+<tr>
+<td>Delete rows</td>
+<td><code>DELETE FROM T WHERE cond;</code></td>
+</tr>
+<tr>
+<td>Join two tables</td>
+<td><code>SELECT ... FROM A, B WHERE A.id = B.id;</code> (equi-join) or <code>FROM A NATURAL JOIN B</code></td>
+</tr>
+<tr>
+<td>Structure</td>
+<td><code>CREATE DATABASE d; USE d; SHOW DATABASES; SHOW TABLES; DESCRIBE T; DROP TABLE T; DROP DATABASE d;</code></td>
+</tr>
+<tr>
+<td>ALTER</td>
+<td><code>ALTER TABLE T ADD col INT;</code> <code>ALTER TABLE T DROP COLUMN col;</code> <code>ALTER TABLE T ADD PRIMARY KEY (col);</code> <code>ALTER TABLE T DROP PRIMARY KEY;</code> <code>ALTER TABLE T MODIFY col VARCHAR(30);</code></td>
+</tr>
+<tr>
+<td>Insert</td>
+<td><code>INSERT INTO T VALUES (1, 'Asha', 'XII', 4500.0);</code> (text and dates in quotes; numbers without quotes)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Key terms:</strong> Relation = table; attribute = column; tuple = row; <strong>degree</strong> = number of columns; <strong>cardinality</strong> = number of rows; <strong>domain</strong> = set of allowed values for a column. <strong>Candidate key</strong> = any column(s) that can uniquely identify a row. <strong>Primary key</strong> = the candidate key chosen (unique + not NULL). <strong>Alternate key</strong> = candidate keys not chosen. <strong>Foreign key</strong> = a column that refers to the primary key of another table. Cartesian product: rows multiply, columns add.
+<strong>Data types:</strong> CHAR(n) fixed length, VARCHAR(n) variable length, INT, FLOAT, DATE ('YYYY-MM-DD'). <strong>Constraints:</strong> NOT NULL, UNIQUE, PRIMARY KEY.</p>
+<p><strong>Python-MySQL template (learn by heart):</strong></p>
+<pre><code class="language-python">import mysql.connector
+con = mysql.connector.connect(host=&quot;localhost&quot;, user=&quot;root&quot;,
+                              password=&quot;xyz&quot;, database=&quot;school&quot;)
+cur = con.cursor()
+cur.execute(&quot;SQL QUERY HERE&quot;)
+con.commit()              # only for INSERT / UPDATE / DELETE
+data = cur.fetchall()     # only for SELECT: list of tuples (fetchone() gives one row)
+for row in data:
+    print(row)
+print(cur.rowcount)       # number of rows affected / fetched
+con.close()
+</code></pre>
+<p>With input values: <code>cur.execute("INSERT INTO stu VALUES ({}, '{}')".format(r, n))</code> or <code>cur.execute("INSERT INTO stu VALUES (%s, %s)", (r, n))</code>.</p>
+<h3 id="6d-networks-terms-and-the-case-study-answer-key">6d. Networks: terms and the case-study answer key</h3>
+
+<p><strong>Full forms:</strong> ARPANET (Advanced Research Projects Agency Network), NSFNET (National Science Foundation Network), LAN/MAN/WAN/PAN (Local/Metropolitan/Wide/Personal Area Network), NIC (Network Interface Card), MAC (Media Access Control), RJ45 (Registered Jack 45), IP (Internet Protocol), TCP (Transmission Control Protocol), HTTP(S) (HyperText Transfer Protocol (Secure)), FTP (File Transfer Protocol), SMTP (Simple Mail Transfer Protocol), POP3 (Post Office Protocol 3), PPP (Point-to-Point Protocol), VoIP (Voice over Internet Protocol), HTML (HyperText Markup Language), XML (eXtensible Markup Language), URL (Uniform Resource Locator), WWW (World Wide Web), Wi-Fi (Wireless Fidelity), Modem (Modulator-Demodulator).</p>
+<p><strong>Protocols, one line each:</strong> HTTP/HTTPS: web pages. FTP: file transfer. SMTP: <strong>sending</strong> email. POP3: <strong>receiving/downloading</strong> email. PPP: direct link between two devices. TCP/IP: basic rules of the internet (TCP breaks data into packets and checks them; IP addresses and routes them). TELNET: <strong>remote login</strong> to another computer. VoIP: voice/video calls over the internet.</p>
+<p><strong>Devices, one line each:</strong> Modem: converts digital ↔ analog signals (for the telephone line). Ethernet card / NIC: connects a computer to the network; has a MAC address. RJ45: 8-pin connector on an Ethernet cable. Repeater: regenerates a weak signal (use when cable &gt; 100 m). Hub: connects computers; sends data to <strong>all</strong> ports. Switch: connects computers; sends data only to the <strong>intended</strong> port (smart hub). Router: connects different networks and finds the best path. Gateway: entry/exit point connecting networks that use different protocols. Wi-Fi card: wireless network card.</p>
+<p><strong>Media:</strong> Twisted pair (cheap, short distance), co-axial (TV cable), optical fibre (fastest, long distance, uses light, no interference). Radio waves (all directions, long distance, no line-of-sight; FM radio, mobiles). Microwaves (line-of-sight, point-to-point; satellite, radar). Infrared (very short distance; TV remote).</p>
+<p><strong>Topologies:</strong> Bus (one main cable; cheap; cable fault stops all). Star (all nodes to a central switch/hub; easy to find faults; hub failure stops all). Tree (stars connected to a bus backbone; hierarchy).</p>
+<p><strong>Network types:</strong> PAN (around one person, ~10 m, Bluetooth), LAN (one building/campus, up to about 1 km), MAN (a city), WAN (countries; the Internet is the largest WAN).</p>
+<p><strong>Web terms:</strong> WWW: all web pages linked on the internet. Website: a set of related web pages. Web browser: software to view web pages (Chrome). Web server: computer that stores websites and sends pages on request. Web hosting: renting space on a web server for your website. Domain name: name of a website (cbse.gov.in). HTML: describes how a page looks (fixed tags). XML: describes/stores data (user-defined tags).</p>
+<p><strong>Bandwidth:</strong> range of frequencies a channel can carry, measured in <strong>Hz</strong>. <strong>Data transfer rate:</strong> bits sent per second (bps, Kbps, Mbps, Gbps). <strong>IP address:</strong> unique numerical address of a device on a network (e.g. 192.168.1.10).</p>
+<p><strong>Case study answer key (5 marks almost every year):</strong></p>
+<ol>
+<li><strong>Server:</strong> in the block with the <strong>most computers</strong> (reason: most traffic stays local).</li>
+<li><strong>Layout:</strong> star, with the server block at the centre (draw boxes and lines). If asked "shortest cable", you may join each block to its nearest block, but star from the server block is the safe answer.</li>
+<li><strong>Switch/hub:</strong> in <strong>every</strong> block.</li>
+<li><strong>Repeater:</strong> on any cable <strong>longer than 100 m</strong> (name those pairs).</li>
+<li><strong>Router/Gateway/Modem for internet:</strong> in the server block.</li>
+<li><strong>Wired medium inside the campus:</strong> Ethernet (twisted pair) cable; between far blocks or cities with high speed: <strong>optical fibre</strong>; very far/hilly areas: satellite (microwave).</li>
+<li><strong>Network type:</strong> inside the campus = LAN; between cities = WAN.</li>
+<li><strong>Protocol:</strong> video/voice meeting = VoIP; remote access = TELNET; file transfer = FTP; email = SMTP.</li>
+</ol>
+<hr />
+<h2 id="7-answer-writing-tips-to-collect-step-marks-and-a-30-day-tim">7. Answer-writing tips (to collect step marks) and a 30-day timetable</h2>
+
+<h3 id="7a-tips">7a. Tips</h3>
+
+<ol>
+<li><strong>Never leave code blank.</strong> Writing <code>def name():</code>, the correct <code>open()</code> line, <code>import pickle</code>/<code>import csv</code>, the loop and <code>close()</code> already earns 1-2 marks in a 3-5 mark question. The marking scheme gives ½ mark for each such line.</li>
+<li><strong>Indentation matters.</strong> Use 4 spaces consistently. Put a <strong>colon</strong> after def, if, elif, else, for, while, try, except, finally, with.</li>
+<li><strong>Output questions:</strong> make a small table of variable values for each loop step (a "dry run"). Write the output exactly: quotes and brackets for lists <code>['a', 'b']</code>, no quotes for printed strings, and note <code>end=</code> and <code>sep=</code>. A float has <code>.0</code> (45.0).</li>
+<li><strong>Error-finding:</strong> rewrite the <strong>whole</strong> code and <strong>underline</strong> each correction. Usual errors: missing colon, missing bracket, <code>Print</code> (capital P), wrong quotes, <code>=</code> instead of <code>==</code>, <code>/</code> instead of <code>%</code>, <code>range(L)</code> instead of <code>range(L-1, -1, -1)</code>, variable not set to 0 before use, wrong indentation.</li>
+<li><strong>MCQs:</strong> write the letter <strong>and</strong> the text of the answer (CBSE instruction). For A-R: first decide whether A is true, then whether R is true, then whether R explains A.</li>
+<li><strong>SQL:</strong> end every query with a semicolon. Put text and dates in single quotes ('Delhi', '2025-01-01'); do not put numbers in quotes. For an output question, draw a small table with column headings.</li>
+<li><strong>Python-MySQL:</strong> always write import, connect, cursor, execute, commit (for changes) or fetchall (for SELECT), close. These lines carry the marks even if the query has a small error.</li>
+<li><strong>Case study:</strong> write the answer <strong>and</strong> a one-line reason ("because it has the maximum number of computers"). Draw the layout with labelled boxes.</li>
+<li><strong>Choose the easier OR option:</strong> usually the theory/SQL one rather than a long program.</li>
+<li><strong>Time plan (3 hours):</strong> Section A 30 min, B 30 min, C 25 min, D 45 min, E 30 min, checking 20 min. Do SQL and networks first if they are your strong areas.</li>
+</ol>
+<h3 id="7b-30-day-study-timetable-about-2-hours-a-day">7b. 30-day study timetable (about 2 hours a day)</h3>
+
+<table>
+<thead>
+<tr>
+<th>Day</th>
+<th>Task</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Networks: devices, media, topologies, network types (6d; Q62, Q64, Q68)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Networks: protocols, full forms, web terms (Q63, Q65-Q67, Q69)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Networks: case study answer key; solve Q70, Q71, Q72. Write all full forms from memory.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>SQL theory: keys, degree, cardinality, DDL/DML (Q73-Q77)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>SQL: CREATE, ALTER, DROP, SHOW, DESCRIBE, INSERT (Q78-Q81)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>SQL: SELECT with WHERE, BETWEEN, IN, LIKE, IS NULL, ORDER BY, DISTINCT (Q82)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>SQL: aggregates, GROUP BY, HAVING, UPDATE, DELETE; outputs (Q83-Q84)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>SQL: joins and Cartesian product (Q85-Q87). Practise all queries on the lab computer.</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Python-MySQL template; write Q88-Q91 from memory twice</td>
+</tr>
+<tr>
+<td>10</td>
+<td><strong>Test 1:</strong> all SQL + networks questions in Section 5 without looking. Check answers.</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Stack template; Q58-Q59</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Stack: Q60-Q61. Write every stack program once more from memory.</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Text files: modes, read/readline/readlines, seek/tell, with (Q47-Q48)</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Text file programs: Q49-Q50</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Text file programs: Q51-Q52 (and the 3 "same template" variants)</td>
+</tr>
+<tr>
+<td>16</td>
+<td>CSV: Q56-Q57</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Binary: Q53-Q55 (focus on the load loop with try/except EOFError)</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Python revision: strings and slicing (Q1-Q6)</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Lists, tuples, operators, data types (Q7-Q12, Q16-Q18)</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Dictionaries and built-in statements (Q13-Q14, Q19-Q22)</td>
+</tr>
+<tr>
+<td>21</td>
+<td>Output questions: Q23-Q25 (dry-run tables)</td>
+</tr>
+<tr>
+<td>22</td>
+<td>Output questions: Q26-Q28</td>
+</tr>
+<tr>
+<td>23</td>
+<td>Error finding: Q29-Q32</td>
+</tr>
+<tr>
+<td>24</td>
+<td>Functions and scope: Q33-Q38</td>
+</tr>
+<tr>
+<td>25</td>
+<td>random module and exceptions: Q39-Q43; small list functions Q44-Q46</td>
+</tr>
+<tr>
+<td>26</td>
+<td>Solve the <strong>2026-27 SQP</strong> in 3 hours. Mark it with the official marking scheme.</td>
+</tr>
+<tr>
+<td>27</td>
+<td>Redo every wrong answer from the SQP. Revise the quick sheet (Section 6).</td>
+</tr>
+<tr>
+<td>28</td>
+<td>Solve the <strong>2026 board paper (Code 91)</strong> in 3 hours</td>
+</tr>
+<tr>
+<td>29</td>
+<td>Revise all ★ questions in Section 5</td>
+</tr>
+<tr>
+<td>30</td>
+<td>Light revision: 6a-6d tables, case-study key, connectivity template. Sleep early.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Practical file and project:</strong> finish them <strong>in school before January</strong>. Run every program in your file at least once so you can explain it in the viva.</p>
+<hr />
+<h2 id="8-sources-urls-actually-opened">8. Sources (URLs actually opened)</h2>
+
+<p><strong>Official CBSE</strong></p>
+<ul>
+<li>2026-27 curriculum (Computer Science 083, Classes XI-XII): https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Computer_Science_SecP2_2026-27.pdf (listed on https://cbseacademic.nic.in/curriculum_2027.html)</li>
+<li>2026-27 SQP: https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/ComputerScience-SQP.pdf</li>
+<li>2026-27 Marking Scheme: https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/ComputerScience-MS.pdf (listed on https://cbseacademic.nic.in/SQP_CLASSXII_2026-27.html)</li>
+<li>Board question papers (CBSE question paper archive on cbse.gov.in; set read in brackets):</li>
+<li>2026 (Code 91, Set 4): https://www.cbse.gov.in/cbsenew/question-paper/2026/XII/Computer_Science.zip</li>
+<li>2025 (Code 91, Set 4; scanned, read by OCR): https://www.cbse.gov.in/cbsenew/question-paper/2025/XII/91_COMPUTER_SCIENCE.pdf</li>
+<li>2024 (Code 91, Set 4; scanned, read by OCR): https://www.cbse.gov.in/cbsenew/question-paper/2024/XII/Computer_Science.zip</li>
+<li>2023 (Code 91, Series NHHEFG; scanned, read by OCR): https://www.cbse.gov.in/cbsenew/question-paper/2023/XII/91_Computer_Science.zip</li>
+<li>2019 (Code 91, Series BVM, Delhi): from the same CBSE archive (old C++/Python syllabus)</li>
+<li>Pass criteria (33% separately in theory and practical, Class XII): https://www.cbse.gov.in/cbsenew/documents/Question_Answers_Controller_Examination_04032025_07032025.pdf</li>
+</ul>
+<p><strong>Textbook:</strong> NCERT Computer Science, Class XII (and Class XI for the Python revision topics).</p>
+<p><em>Model answers follow NCERT and the 2026-27 SQP marking scheme where the same question appears. Official marking schemes for the 2019-2026 board papers were not opened, so teachers should check any answer they want to use word-for-word against the CBSE marking scheme for that year. Where a scanned paper's table could not be read, that question was left out or a practice table was used instead (clearly marked "practice").</em></p>
